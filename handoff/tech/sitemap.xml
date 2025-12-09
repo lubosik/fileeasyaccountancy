@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage (primary landing page) -->
+  <url>
+    <loc>https://fileeasyaccountancy.co.uk/</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Privacy Policy (legally required) -->
+  <url>
+    <loc>https://fileeasyaccountancy.co.uk/privacy</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms & Conditions (if exists) -->
+  <url>
+    <loc>https://fileeasyaccountancy.co.uk/terms</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Contact Page (if separate from homepage) -->
+  <!-- Uncomment if you have a dedicated /contact route -->
+  <!--
+  <url>
+    <loc>https://fileeasyaccountancy.co.uk/contact</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  -->
+
+</urlset>
+
+<!--
+NOTES FOR CURSOR:
+1. Update <lastmod> dates when pages change
+2. If using Next.js dynamic sitemap (app/sitemap.ts), this file is a template only
+3. For Next.js 13+ App Router, create app/sitemap.ts instead:
+
+   export default function sitemap() {
+     return [
+       {
+         url: 'https://fileeasyaccountancy.co.uk',
+         lastModified: new Date(),
+         changeFrequency: 'monthly',
+         priority: 1,
+       },
+       {
+         url: 'https://fileeasyaccountancy.co.uk/privacy',
+         lastModified: new Date('2025-10-13'),
+         changeFrequency: 'yearly',
+         priority: 0.3,
+       },
+     ];
+   }
+
+4. Submit to Google Search Console after deployment
+-->

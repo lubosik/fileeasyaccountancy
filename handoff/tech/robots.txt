@@ -1,0 +1,24 @@
+# Robots.txt for Fileeasy Accountancy
+# https://fileeasyaccountancy.co.uk/robots.txt
+
+User-agent: *
+Allow: /
+
+# Block admin/backend if any (adjust if using CMS)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Block search query params (if implementing site search)
+Disallow: /*?s=
+Disallow: /*&s=
+
+# Block Next.js build artifacts (shouldn't be exposed, but defensive)
+Disallow: /_next/static/
+
+# Sitemap location
+Sitemap: https://fileeasyaccountancy.co.uk/sitemap.xml
+
+# Notes:
+# - Allow all public pages by default
+# - Update domain if using www subdomain (or apex)
+# - Test at https://www.google.com/webmasters/tools/robots-testing-tool

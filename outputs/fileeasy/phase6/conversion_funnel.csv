@@ -1,0 +1,16 @@
+Funnel Stage,Page Type,Traffic Volume,Conversion Rate,Leads Generated,Next Stage,Conversion Path,Optimization Opportunity
+Awareness,Homepage,500,3%,15,Consideration,Homepage → Service Pages,Improve service page linking
+Awareness,Location Pages,650,4%,26,Consideration,Location → Service Pages,Add location-specific services
+Awareness,Dubai Services,400,2%,8,Consideration,Dubai → VAT Services,Improve Dubai service positioning
+Consideration,Service Pages,200,4.5%,9,Evaluation,Service → Pricing,Add pricing to service pages
+Consideration,Pricing Page,150,6%,9,Decision,Pricing → Contact,Improve pricing transparency
+Consideration,FAQ Page,120,2%,2,Evaluation,FAQ → Contact,Add FAQ to contact flow
+Evaluation,About Page,80,1%,1,Decision,About → Contact,Improve team credibility
+Evaluation,Testimonials,50,1%,1,Decision,Testimonials → Contact,Add more testimonials
+Decision,Contact Page,100,5%,5,Conversion,Contact → Consultation,Improve contact form
+Decision,Blog Posts,140,2%,3,Evaluation,Blog → Service Pages,Improve blog to service linking
+Decision,Case Studies,40,3%,1,Decision,Case Study → Contact,Add more case studies
+Decision,Resource Pages,55,2%,1,Evaluation,Resource → Service Pages,Improve resource to service linking
+Conversion,Consultation Calls,87,60%,52,Client,Consultation → Service Agreement,Improve consultation process
+Conversion,Service Agreements,52,80%,42,Retention,Service → Ongoing Relationship,Improve service delivery
+Retention,Client Services,42,90%,38,Referral,Client → Referral Program,Implement referral program

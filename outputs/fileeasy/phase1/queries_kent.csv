@@ -1,0 +1,174 @@
+Keyword,Intent,Persona,Priority
+accountant near me Kent,Local,SME,High
+bookkeeping services Kent,Commercial,SME,High
+payroll services Kent,Commercial,SME,High
+VAT returns Kent,Transactional,SME,High
+year end accounts Kent,Commercial,SME,High
+self assessment Kent,Transactional,Individual,High
+company formation Kent,Commercial,SME,High
+virtual CFO Kent,Commercial,SME,High
+management accounts Kent,Commercial,SME,High
+cashflow forecasting Kent,Commercial,SME,High
+R&D tax credits Kent,Commercial,SME,High
+CIS returns Kent,Transactional,Contractor,High
+IR35 contract review Kent,Commercial,Contractor,High
+tax planning Kent,Commercial,SME,High
+financial health check Kent,Commercial,SME,High
+VAT registration Kent,Transactional,SME,High
+Making Tax Digital Kent,Informational,SME,High
+urgent accountant Kent,Transactional,SME,High
+same day accountant Kent,Transactional,SME,High
+accountant fees Kent,Commercial,SME,Medium
+bookkeeping cost Kent,Commercial,SME,Medium
+payroll service price Kent,Commercial,SME,Medium
+Xero vs QuickBooks Kent accountant,Informational,SME,Medium
+audit vs review Kent,Informational,SME,Medium
+late filing penalty help Kent,Transactional,SME,Medium
+set up ltd company Kent,Commercial,SME,Medium
+IR35 compliance Kent,Informational,Contractor,Medium
+CIS compliance Kent,Informational,Contractor,Medium
+VAT threshold Kent,Informational,SME,Medium
+Making Tax Digital compliance Kent,Informational,SME,Medium
+accountant Maidstone,Local,SME,Medium
+accountant Canterbury,Local,SME,Medium
+accountant Medway,Local,SME,Medium
+accountant Ashford,Local,SME,Medium
+accountant Dartford,Local,SME,Medium
+accountant Gravesend,Local,SME,Medium
+accountant Tonbridge,Local,SME,Medium
+accountant Royal Tunbridge Wells,Local,SME,Medium
+accountant Sevenoaks,Local,SME,Medium
+accountant Sittingbourne,Local,SME,Medium
+accountant Gillingham,Local,SME,Medium
+bookkeeping Maidstone,Local,SME,Medium
+payroll Maidstone,Local,SME,Medium
+VAT returns Maidstone,Local,SME,Medium
+self assessment Maidstone,Local,Individual,Medium
+company formation Maidstone,Local,SME,Medium
+IR35 advisor Kent,Commercial,Contractor,Low
+CIS advisor Kent,Commercial,Contractor,Low
+tax advisor Kent,Commercial,SME,Low
+accounting software Kent,Informational,SME,Low
+bookkeeping software Kent,Informational,SME,Low
+payroll software Kent,Informational,SME,Low
+VAT software Kent,Informational,SME,Low
+accounting training Kent,Informational,SME,Low
+bookkeeping training Kent,Informational,SME,Low
+payroll training Kent,Informational,SME,Low
+VAT training Kent,Informational,SME,Low
+accounting courses Kent,Informational,SME,Low
+bookkeeping courses Kent,Informational,SME,Low
+payroll courses Kent,Informational,SME,Low
+VAT courses Kent,Informational,SME,Low
+accounting qualifications Kent,Informational,SME,Low
+bookkeeping qualifications Kent,Informational,SME,Low
+payroll qualifications Kent,Informational,SME,Low
+VAT qualifications Kent,Informational,SME,Low
+accounting jobs Kent,Informational,SME,Low
+bookkeeping jobs Kent,Informational,SME,Low
+payroll jobs Kent,Informational,SME,Low
+VAT jobs Kent,Informational,SME,Low
+accounting careers Kent,Informational,SME,Low
+bookkeeping careers Kent,Informational,SME,Low
+payroll careers Kent,Informational,SME,Low
+VAT careers Kent,Informational,SME,Low
+accounting salary Kent,Informational,SME,Low
+bookkeeping salary Kent,Informational,SME,Low
+payroll salary Kent,Informational,SME,Low
+VAT salary Kent,Informational,SME,Low
+accounting rates Kent,Informational,SME,Low
+bookkeeping rates Kent,Informational,SME,Low
+payroll rates Kent,Informational,SME,Low
+VAT rates Kent,Informational,SME,Low
+accounting costs Kent,Informational,SME,Low
+bookkeeping costs Kent,Informational,SME,Low
+payroll costs Kent,Informational,SME,Low
+VAT costs Kent,Informational,SME,Low
+accounting prices Kent,Informational,SME,Low
+bookkeeping prices Kent,Informational,SME,Low
+payroll prices Kent,Informational,SME,Low
+VAT prices Kent,Informational,SME,Low
+accounting quotes Kent,Informational,SME,Low
+bookkeeping quotes Kent,Informational,SME,Low
+payroll quotes Kent,Informational,SME,Low
+VAT quotes Kent,Informational,SME,Low
+accounting estimates Kent,Informational,SME,Low
+bookkeeping estimates Kent,Informational,SME,Low
+payroll estimates Kent,Informational,SME,Low
+VAT estimates Kent,Informational,SME,Low
+accounting consultation Kent,Informational,SME,Low
+bookkeeping consultation Kent,Informational,SME,Low
+payroll consultation Kent,Informational,SME,Low
+VAT consultation Kent,Informational,SME,Low
+accounting advice Kent,Informational,SME,Low
+bookkeeping advice Kent,Informational,SME,Low
+payroll advice Kent,Informational,SME,Low
+VAT advice Kent,Informational,SME,Low
+accounting help Kent,Informational,SME,Low
+bookkeeping help Kent,Informational,SME,Low
+payroll help Kent,Informational,SME,Low
+VAT help Kent,Informational,SME,Low
+accounting support Kent,Informational,SME,Low
+bookkeeping support Kent,Informational,SME,Low
+payroll support Kent,Informational,SME,Low
+VAT support Kent,Informational,SME,Low
+accounting services Kent,Commercial,SME,Low
+bookkeeping services Kent,Commercial,SME,Low
+payroll services Kent,Commercial,SME,Low
+VAT services Kent,Commercial,SME,Low
+accounting firm Kent,Commercial,SME,Low
+bookkeeping firm Kent,Commercial,SME,Low
+payroll firm Kent,Commercial,SME,Low
+VAT firm Kent,Commercial,SME,Low
+accounting company Kent,Commercial,SME,Low
+bookkeeping company Kent,Commercial,SME,Low
+payroll company Kent,Commercial,SME,Low
+VAT company Kent,Commercial,SME,Low
+accounting business Kent,Commercial,SME,Low
+bookkeeping business Kent,Commercial,SME,Low
+payroll business Kent,Commercial,SME,Low
+VAT business Kent,Commercial,SME,Low
+accounting practice Kent,Commercial,SME,Low
+bookkeeping practice Kent,Commercial,SME,Low
+payroll practice Kent,Commercial,SME,Low
+VAT practice Kent,Commercial,SME,Low
+accounting agency Kent,Commercial,SME,Low
+bookkeeping agency Kent,Commercial,SME,Low
+payroll agency Kent,Commercial,SME,Low
+VAT agency Kent,Commercial,SME,Low
+accounting consultant Kent,Commercial,SME,Low
+bookkeeping consultant Kent,Commercial,SME,Low
+payroll consultant Kent,Commercial,SME,Low
+VAT consultant Kent,Commercial,SME,Low
+accounting specialist Kent,Commercial,SME,Low
+bookkeeping specialist Kent,Commercial,SME,Low
+payroll specialist Kent,Commercial,SME,Low
+VAT specialist Kent,Commercial,SME,Low
+accounting expert Kent,Commercial,SME,Low
+bookkeeping expert Kent,Commercial,SME,Low
+payroll expert Kent,Commercial,SME,Low
+VAT expert Kent,Commercial,SME,Low
+accounting professional Kent,Commercial,SME,Low
+bookkeeping professional Kent,Commercial,SME,Low
+payroll professional Kent,Commercial,SME,Low
+VAT professional Kent,Commercial,SME,Low
+accounting advisor Kent,Commercial,SME,Low
+bookkeeping advisor Kent,Commercial,SME,Low
+payroll advisor Kent,Commercial,SME,Low
+VAT advisor Kent,Commercial,SME,Low
+accounting accountant Kent,Commercial,SME,Low
+bookkeeping accountant Kent,Commercial,SME,Low
+payroll accountant Kent,Commercial,SME,Low
+VAT accountant Kent,Commercial,SME,Low
+accounting bookkeeper Kent,Commercial,SME,Low
+bookkeeping bookkeeper Kent,Commercial,SME,Low
+payroll bookkeeper Kent,Commercial,SME,Low
+VAT bookkeeper Kent,Commercial,SME,Low
+accounting payroll Kent,Commercial,SME,Low
+bookkeeping payroll Kent,Commercial,SME,Low
+payroll payroll Kent,Commercial,SME,Low
+VAT payroll Kent,Commercial,SME,Low
+accounting VAT Kent,Commercial,SME,Low
+bookkeeping VAT Kent,Commercial,SME,Low
+payroll VAT Kent,Commercial,SME,Low
+VAT VAT Kent,Commercial,SME,Low

@@ -1,0 +1,21 @@
+Page Type,Page Title,Target Keywords,Priority,Content Focus,CTA Strategy,Schema Types,Estimated Traffic,ROI Score
+Homepage,File Easy Accountancy - Medway Accountants,"accountant Kent, kent accountant",High,Local expertise + comprehensive services,"Free consultation for Medway businesses",Organization, LocalBusiness, Service,720,95
+Service Page,Bookkeeping Services Kent,"bookkeeping services Kent, kent bookkeeping services",High,Service specialization + local focus,"Get your free bookkeeping quote",Service, FAQPage,40,95
+Service Page,Payroll Services Kent,"payroll services Kent, payroll services in kent, payroll services kent",High,Service specialization + local focus,"Get your free payroll quote",Service, FAQPage,150,95
+Location Page,Accountant Maidstone Kent,"accountant maidstone kent",High,Local expertise + Maidstone focus,"Free consultation for Maidstone businesses",LocalBusiness, Service,720,90
+Location Page,Accountant Ashford Kent,"accountant ashford kent, accountant in ashford kent",High,Local expertise + Ashford focus,"Free consultation for Ashford businesses",LocalBusiness, Service,1180,85
+Location Page,Accountant Bromley Kent,"accountant bromley kent",High,Local expertise + Bromley focus,"Free consultation for Bromley businesses",LocalBusiness, Service,480,90
+Service Page,Dubai Accounting Services,"accountant jobs dubai, dubai accountant vacancies",High,Service provider vs job search,"Get professional accounting services",Service, FAQPage,2400,80
+Service Page,VAT Services Dubai,"VAT services Dubai, corporate tax Dubai",Medium,Compliance expertise + FTA focus,"Ensure FTA compliance",Service, FAQPage,500,75
+Service Page,Free Zone Accounting Dubai,"JAFZA accounting, DIFC bookkeeping",Low,Free zone expertise + compliance,"Free zone business setup",Service, FAQPage,200,70
+Pricing Page,Accounting Services Pricing Kent,accounting services pricing,High,Transparent pricing + value proposition,"Save 30% on your accounting costs",Service, FAQPage,300,85
+About Page,About File Easy Accountancy - Medway Accountants,about file easy accountancy,Medium,Team expertise + local knowledge,"Meet our team",Organization, Person,100,80
+Contact Page,Contact File Easy Accountancy - Medway,contact file easy accountancy,Medium,Local contact + service areas,"Get in touch today",LocalBusiness, ContactPage,150,85
+Blog Post,Why Choose a Local Accountant in Kent,local accountant Kent,Medium,Local expertise benefits + case studies,"Free consultation",Article, FAQPage,200,80
+Blog Post,Bookkeeping vs Accounting - What's the Difference,bookkeeping vs accounting,Medium,Service education + differentiation,"Get professional help",Article, FAQPage,300,75
+Blog Post,Dubai VAT Compliance Guide 2025,Dubai VAT compliance,Medium,Compliance expertise + regulatory updates,"Ensure compliance",Article, FAQPage,400,70
+FAQ Page,Accounting Services FAQ Kent,accounting services FAQ,High,Common questions + local focus,"Get answers to your questions",FAQPage,200,85
+Case Study,Medway Business Success Story,medway business success,Medium,Local success + testimonials,"Start your success story",Article, Review,100,80
+Resource Page,Kent Business Tax Guide,kent business tax guide,Medium,Local expertise + tax knowledge,"Get expert tax help",Article, HowTo,150,75
+Resource Page,Dubai Business Setup Guide,dubai business setup,Low,Dubai expertise + compliance,"Get setup help",Article, HowTo,200,70
+Testimonials Page,Client Testimonials - File Easy Accountancy,file easy accountancy testimonials,Medium,Social proof + local success,"Join our happy clients",Review, AggregateRating,100,80

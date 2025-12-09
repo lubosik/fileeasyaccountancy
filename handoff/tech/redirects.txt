@@ -1,0 +1,226 @@
+# Canonical Host & Redirect Rules
+# For Fileeasy Accountancy (Namecheap hosting)
+
+---
+
+## 1. Choose Canonical Domain
+
+**Decision:** Use `https://fileeasyaccountancy.co.uk` (apex) OR `https://www.fileeasyaccountancy.co.uk` (www subdomain)
+
+**Recommendation:** Apex (no www) is cleaner for branding and shorter.
+
+**Action:**
+- Set DNS A record for `@` (apex) → server IP
+- Set CNAME for `www` → `fileeasyaccountancy.co.uk`
+- Redirect `www` → apex with 301
+
+---
+
+## 2. Enforce HTTPS (SSL Redirect)
+
+All HTTP traffic → HTTPS (301 permanent redirect)
+
+---
+
+## 3. Trailing Slash Consistency
+
+**Recommendation:** No trailing slashes (cleaner, Next.js default)
+
+Examples:
+- ✅ `https://fileeasyaccountancy.co.uk/privacy`
+- ❌ `https://fileeasyaccountancy.co.uk/privacy/` (redirect to no-slash)
+
+---
+
+## Implementation Options
+
+### A. Next.js `next.config.ts` (Recommended)
+
+Add to `/next.config.ts`:
+
+```typescript
+const nextConfig = {
+  // Enforce trailing slash behavior
+  trailingSlash: false, // Remove trailing slashes
+
+  // Redirects for www → apex (if using apex as canonical)
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.fileeasyaccountancy.co.uk' }],
+        destination: 'https://fileeasyaccountancy.co.uk/:path*',
+        permanent: true, // 301
+      },
+    ];
+  },
+
+  // Headers for security & caching
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'X-DNS-Prefetch-Control',
+            value: 'on',
+          },
+          {
+            key: 'Strict-Transport-Security',
+            value: 'max-age=31536000; includeSubDomains',
+          },
+          {
+            key: 'X-Content-Type-Options',
+            value: 'nosniff',
+          },
+          {
+            key: 'X-Frame-Options',
+            value: 'DENY',
+          },
+          {
+            key: 'Referrer-Policy',
+            value: 'strict-origin-when-cross-origin',
+          },
+        ],
+      },
+    ];
+  },
+};
+
+export default nextConfig;
+```
+
+---
+
+### B. Namecheap cPanel .htaccess (Apache)
+
+If hosting on Namecheap shared hosting with Apache, add to `.htaccess` in public root:
+
+```apache
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Redirect www to non-www (apex canonical)
+RewriteCond %{HTTP_HOST} ^www\.fileeasyaccountancy\.co\.uk$ [NC]
+RewriteRule ^(.*)$ https://fileeasyaccountancy.co.uk/$1 [R=301,L]
+
+# Remove trailing slashes
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+
+# Set canonical headers
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "DENY"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+</IfModule>
+```
+
+**Test:** https://www.redirect-checker.org/
+
+---
+
+### C. Vercel Deployment (If Hosting on Vercel)
+
+Vercel handles HTTPS automatically. Add to `vercel.json`:
+
+```json
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.fileeasyaccountancy.co.uk" }],
+      "destination": "https://fileeasyaccountancy.co.uk/$1",
+      "permanent": true
+    }
+  ],
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Strict-Transport-Security", "value": "max-age=31536000" }
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 4. Canonical Tags in HTML
+
+Add to every page `<head>` (Next.js `layout.tsx` or per-page metadata):
+
+```tsx
+export const metadata = {
+  alternates: {
+    canonical: 'https://fileeasyaccountancy.co.uk/', // Update per page
+  },
+};
+```
+
+**Homepage:**
+```html
+<link rel="canonical" href="https://fileeasyaccountancy.co.uk/" />
+```
+
+**Privacy page:**
+```html
+<link rel="canonical" href="https://fileeasyaccountancy.co.uk/privacy" />
+```
+
+**Note:** Use absolute URLs (with protocol and domain), not relative.
+
+---
+
+## 5. Validation Checklist
+
+- [ ] `http://fileeasyaccountancy.co.uk` → `https://fileeasyaccountancy.co.uk` (301)
+- [ ] `http://www.fileeasyaccountancy.co.uk` → `https://fileeasyaccountancy.co.uk` (301)
+- [ ] `https://www.fileeasyaccountancy.co.uk` → `https://fileeasyaccountancy.co.uk` (301)
+- [ ] Trailing slash URLs redirect to no-slash (e.g., `/privacy/` → `/privacy`)
+- [ ] Canonical tags present on all pages
+- [ ] SSL certificate valid (check at https://www.ssllabs.com/ssltest/)
+- [ ] HSTS header present (check via browser DevTools → Network → Response Headers)
+
+---
+
+## 6. DNS Configuration (Namecheap)
+
+**A Record (apex):**
+```
+Host: @
+Value: [Server IP from Namecheap hosting]
+TTL: Automatic
+```
+
+**CNAME (www subdomain):**
+```
+Host: www
+Value: fileeasyaccountancy.co.uk
+TTL: Automatic
+```
+
+**SSL/TLS:** Enable "SSL Certificate" in Namecheap cPanel (usually free via Let's Encrypt).
+
+---
+
+## Notes for Cursor
+
+1. **Next.js config is preferred** if deploying via Vercel or Node.js hosting.
+2. **.htaccess is only needed** if on Namecheap shared Apache hosting (cPanel).
+3. **Test all redirects** before launch using https://www.redirect-checker.org/
+4. **Update Google Search Console** preferred domain setting to apex (or www, whichever you choose).
+5. **Update all internal links** to use apex domain (e.g., footer, schema `sameAs` URLs).
+
+---
+
+**Priority:** High – Canonical issues cause duplicate content penalties and split link equity.

@@ -1,0 +1,121 @@
+{
+  "slug": "limited-company-vs-sole-trader-kent",
+  "title": "Limited Company vs Sole Trader in Kent (2025 Guide)",
+  "primary_kw": "limited company vs sole trader",
+  "secondary_kws": [
+    "sole trader or limited company",
+    "limited company Kent",
+    "sole trader Rochester",
+    "business structure UK tax",
+    "company formation Kent"
+  ],
+  "city": "Rochester",
+  "county": "Kent",
+  "audience": "entrepreneurs and business owners",
+  "problem": "Confused about whether to operate as a sole trader or set up a limited company, unsure about tax implications and legal responsibilities for different business structures.",
+  "solution": "Clear comparison of limited company vs sole trader structures, with decision-making framework and expert guidance to choose the right structure for your Kent business.",
+  "price_note": "Company setup and first-year compliance from £299",
+  "cta_text": "Get Business Structure Advice",
+  "internal_links": [
+    "/services/tax-returns",
+    "/services/bookkeeping",
+    "/contact",
+    "/resources/vat-registration-rochester"
+  ],
+  "last_updated": "2025-01-24",
+  "tldr": [
+    "Limited companies (Ltd) suit growth-focused businesses needing liability protection and tax efficiency - but require more admin and compliance.",
+    "Sole trader status suits simple businesses with lower profits - minimal setup but personal liability for debts and higher tax rates above £12,570.",
+    "The break-even point is typically around £15,000-20,000 annual profit, but personal circumstances matter more than profit alone."
+  ],
+  "what_it_is": {
+    "title": "Limited Company vs Sole Trader: What's the Difference?",
+    "content": "Choosing your business structure is one of the most important early decisions for any Kent entrepreneur. A sole trader is the simplest business structure - you are the business, with minimal paperwork but personal liability. A limited company is a separate legal entity that protects your personal assets but requires ongoing compliance with Companies House and HMRC.",
+    "industry_notes": [
+      "Tech contractors and consultants often benefit from limited company status due to IR35 considerations and ability to retain profits",
+      "Creative freelancers and service providers may prefer sole trader simplicity unless earning over £20,000+ annually",
+      "E-commerce businesses benefit from limited liability protection when dealing with consumer rights and product liability issues",
+      "Property developers and construction businesses typically choose limited companies for liability protection and tax planning opportunities"
+    ]
+  },
+  "checklist": [
+    {
+      "step": 1,
+      "title": "Assess Your Annual Turnover",
+      "description": "Calculate your expected annual profits (not just revenue). Limited companies become tax-efficient above £15,000-20,000 profit.",
+      "action": "Review your projected profits for the next 2-3 years and consider growth trajectory"
+    },
+    {
+      "step": 2,
+      "title": "Evaluate Liability Risk",
+      "description": "Consider whether you face potential claims, work with high-value contracts, or have employees who could create liability.",
+      "action": "List potential risks: client disputes, product liability, professional indemnity needs, employee claims"
+    },
+    {
+      "step": 3,
+      "title": "Review Administrative Capacity",
+      "description": "Limited companies require annual filings, proper record keeping, board meetings, and dividend documentation.",
+      "action": "Honestly assess whether you can manage compliance or budget £2,000-3,000 annually for professional help"
+    },
+    {
+      "step": 4,
+      "title": "Consider Future Investment & Growth",
+      "description": "Limited companies make it easier to bring in investors, partners, or sell the business later.",
+      "action": "Think 5+ years ahead: Do you want to scale, hire staff, or eventually exit the business?"
+    },
+    {
+      "step": 5,
+      "title": "Calculate Tax Implications",
+      "description": "Compare total tax burden including Income Tax vs Corporation Tax, National Insurance, and dividend tax.",
+      "action": "Get personalised tax projections for both structures based on your specific circumstances"
+    }
+  ],
+  "pricing_timeframes": {
+    "sole_trader_setup": "Free - register with HMRC online",
+    "limited_company_setup": "£299 including Companies House fees",
+    "ongoing_sole_trader": "£150-300/year for tax returns",
+    "ongoing_limited_company": "£1,200-2,400/year for compliance",
+    "timeframe": "Sole trader: immediate, Limited company: 24-48 hours",
+    "note": "Limited company package includes incorporation, registered office, and first-year statutory filings"
+  },
+  "local_proof": {
+    "title": "Helping Kent Businesses Choose the Right Structure",
+    "stats": "We've advised 500+ Kent entrepreneurs on business structure decisions",
+    "tech_stack": ["Companies House integration", "HMRC registration services", "Xero & QuickBooks setup"],
+    "areas_served": ["Rochester", "Maidstone", "Canterbury", "Chatham", "Dartford", "Tunbridge Wells"]
+  },
+  "faq": [
+    {
+      "q": "Can I switch from sole trader to limited company later?",
+      "a": "Yes, you can incorporate your sole trader business at any time. This involves closing your sole trader records with HMRC, transferring assets to the new company, and setting up company systems. We manage the entire transition process, typically taking 2-3 weeks."
+    },
+    {
+      "q": "When should I register for VAT as a sole trader vs limited company?",
+      "a": "VAT registration rules are the same for both structures - mandatory at £85,000 turnover in 12 months. However, limited companies often benefit from voluntary VAT registration earlier due to input VAT recovery on setup costs and equipment purchases."
+    },
+    {
+      "q": "What are the main tax differences between sole trader and limited company?",
+      "a": "Sole traders pay Income Tax (20-45%) and Class 2/4 National Insurance on all profits. Limited companies pay Corporation Tax (19-25%) on profits, then dividend tax (8.75-39.35%) when extracting money. The combined rate is often lower for limited companies, especially above £20,000 profit."
+    },
+    {
+      "q": "Do I need separate bank accounts for sole trader vs limited company?",
+      "a": "Limited companies legally require separate business bank accounts. Sole traders can technically use personal accounts but we strongly recommend separate business accounts for cleaner bookkeeping and professional credibility."
+    },
+    {
+      "q": "Which structure is better for claiming business expenses?",
+      "a": "Both structures can claim legitimate business expenses, but limited companies have more flexibility - they can provide benefits to directors, claim broader travel expenses, and recover VAT on purchases more easily if VAT registered."
+    },
+    {
+      "q": "What happens if my limited company makes a loss?",
+      "a": "Limited company losses can be carried forward indefinitely to offset future profits, reducing Corporation Tax. They can also be used to claim back Corporation Tax paid in the previous year. Sole trader losses offset against other income in the same tax year or carry forward to future years."
+    },
+    {
+      "q": "How much does it cost to run a limited company vs sole trader in Kent?",
+      "a": "Sole traders have minimal ongoing costs - mainly tax return preparation (£150-300/year). Limited companies need annual accounts, Corporation Tax returns, and Companies House filings, typically costing £1,200-2,400/year for professional compliance support."
+    },
+    {
+      "q": "Can I be employed and run a limited company at the same time?",
+      "a": "Yes, you can be employed elsewhere and run a limited company, but check your employment contract for any restrictions. You'll need to manage tax codes carefully and may need to complete Self Assessment if your company income exceeds £1,000 annually."
+    }
+  ]
+}

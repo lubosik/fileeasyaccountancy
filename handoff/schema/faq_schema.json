@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does an accountant cost in Medway?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fees vary by service. Self-assessment typically starts from £150+VAT, limited company accounts from £600+VAT annually. We'll give you a fixed quote upfront with no hourly billing surprises."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a chartered accountant for my tax return?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not required, but chartered (ICAEW/ACCA) or licensed (ATT) accountants offer deeper expertise and professional indemnity insurance. We're fully qualified and insured to handle all UK tax matters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between a bookkeeper and an accountant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bookkeepers handle day-to-day records like invoices and receipts. Accountants prepare statutory accounts, tax returns, and provide strategic advice. We offer both bookkeeping and accountancy services."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When do I need to submit my tax return for 2024/25?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Online deadline: 31 January 2026. Paper (if eligible): 31 October 2025. We recommend filing by December to avoid the January rush and any technical glitches on HMRC systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you help with VAT returns and Making Tax Digital?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We handle quarterly VAT returns and Making Tax Digital (MTD) compliance using bridging software like Xero or QuickBooks. We'll set you up and file on time, every time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer remote services, or do I need to visit your Medway office?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both. We're happy to meet face-to-face in our Medway office (Chatham area) or work entirely remotely via video call, email, and cloud accounting portals. The choice is yours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What areas do you cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We're based in Medway and primarily serve Chatham, Rochester, Gillingham, Strood, and Rainham. We also work with clients across Kent and nationwide using remote cloud accounting tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can an accountant save me tax?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Through allowable expense claims, dividend vs salary optimisation, capital allowances, R&D tax credits, pension contributions, and timing of income and expenses. Proactive planning throughout the year is key to minimising your tax bill legally."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is IR35, and does it affect me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "IR35 determines if HMRC considers you an employee for tax purposes, even if you work through a limited company. It primarily affects contractors in IT, consulting, and construction. We offer IR35 reviews and status assessments to help you stay compliant."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a self-assessment tax return take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With organised records, typically 1-3 hours of our time. If we're also doing your bookkeeping throughout the year, it's even faster. We'll give you a checklist of what we need upfront to make the process smooth."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's included in year-end accounts for a limited company?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Statutory accounts (balance sheet and profit & loss), director's report, Corporation Tax computation (CT600), and filing with both Companies House and HMRC. We handle the full compliance process."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I claim tax relief on business expenses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Allowable expenses include office costs, business travel, equipment, software, professional fees, and more. We'll advise on what's allowable under HMRC rules and help you keep compliant records to support your claims."
+      }
+    }
+  ]
+}

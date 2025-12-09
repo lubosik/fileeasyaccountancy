@@ -1,0 +1,155 @@
+{
+  "images": [
+    {
+      "id": "5fNmWej4tAA",
+      "photographer": "Scott Graham",
+      "category": "hero",
+      "description": "Person working on laptop with financial documents and calculator",
+      "suggested_alt": "Small business owner reviewing financial documents with accountant in Medway office",
+      "use_case": "Homepage hero or 'How We Help' section",
+      "aspect_ratio": "16:9",
+      "license": "Unsplash Free",
+      "url": "https://unsplash.com/photos/5fNmWej4tAA"
+    },
+    {
+      "id": "ZVprbBmT8QA",
+      "photographer": "Scott Graham",
+      "category": "tax-documents",
+      "description": "Close-up of tax forms with pen and calculator",
+      "suggested_alt": "UK tax return forms and accounting paperwork",
+      "use_case": "Self-assessment service card or FAQ section",
+      "aspect_ratio": "16:9",
+      "license": "Unsplash Free",
+      "url": "https://unsplash.com/photos/ZVprbBmT8QA"
+    },
+    {
+      "id": "OQMZwNd3ThU",
+      "photographer": "Lucas Vasques",
+      "category": "office-workspace",
+      "description": "Modern minimalist desk setup with laptop and notepad",
+      "suggested_alt": "Professional accountancy workspace in Chatham, Kent",
+      "use_case": "Process steps or 'Why Choose Us' background",
+      "aspect_ratio": "3:2",
+      "license": "Unsplash Free",
+      "url": "https://unsplash.com/photos/OQMZwNd3ThU"
+    },
+    {
+      "id": "8mn0OWRxm3g",
+      "photographer": "Hunters Race",
+      "category": "consultation",
+      "description": "Two people having a professional consultation at desk",
+      "suggested_alt": "Free accountancy consultation meeting in Medway",
+      "use_case": "Process step 1 (consultation) or testimonials section",
+      "aspect_ratio": "3:2",
+      "license": "Unsplash Free",
+      "url": "https://unsplash.com/photos/8mn0OWRxm3g"
+    },
+    {
+      "id": "npxXWgQ33ZQ",
+      "photographer": "Marga Santoso",
+      "category": "bookkeeping",
+      "description": "Person writing in ledger with calculator",
+      "suggested_alt": "Bookkeeping and VAT returns service for Medway businesses",
+      "use_case": "Bookkeeping service card",
+      "aspect_ratio": "4:3",
+      "license": "Unsplash Free",
+      "url": "https://unsplash.com/photos/npxXWgQ33ZQ"
+    },
+    {
+      "id": "hpjSkU2UYSU",
+      "photographer": "Firmbee.com",
+      "category": "business-meeting",
+      "description": "Professional business meeting with documents and laptop",
+      "suggested_alt": "Business advisory meeting with Medway accountant",
+      "use_case": "Business advisory or tax planning service",
+      "aspect_ratio": "16:9",
+      "license": "Unsplash Free",
+      "url": "https://unsplash.com/photos/hpjSkU2UYSU"
+    },
+    {
+      "id": "KdeqA3aTnBY",
+      "photographer": "Kenny Eliason",
+      "category": "calculator-finance",
+      "description": "Close-up of calculator with financial charts",
+      "suggested_alt": "Financial reporting and tax calculation services Kent",
+      "use_case": "Tax planning or financial reporting icon/card",
+      "aspect_ratio": "1:1",
+      "license": "Unsplash Free",
+      "url": "https://unsplash.com/photos/KdeqA3aTnBY"
+    },
+    {
+      "id": "wawEfYdpkag",
+      "photographer": "Marvin Meyer",
+      "category": "team-collaboration",
+      "description": "Team collaboration in modern office environment",
+      "suggested_alt": "Fileeasy Accountancy team serving Medway businesses",
+      "use_case": "About section or team photo placeholder",
+      "aspect_ratio": "16:9",
+      "license": "Unsplash Free",
+      "url": "https://unsplash.com/photos/wawEfYdpkag"
+    },
+    {
+      "id": "SYTO3xs06fU",
+      "photographer": "Lukas Blazek",
+      "category": "analytics",
+      "description": "Laptop showing financial analytics dashboard",
+      "suggested_alt": "Cloud accounting and Xero services for Medway SMEs",
+      "use_case": "Xero/QuickBooks setup service card",
+      "aspect_ratio": "3:2",
+      "license": "Unsplash Free",
+      "url": "https://unsplash.com/photos/SYTO3xs06fU"
+    },
+    {
+      "id": "uk3XZq2yD3I",
+      "photographer": "Sebastian Herrmann",
+      "category": "startup",
+      "description": "Startup founder working on business plan",
+      "suggested_alt": "Start-up business formation and accountancy support Kent",
+      "use_case": "Business start-up support service card",
+      "aspect_ratio": "16:9",
+      "license": "Unsplash Free",
+      "url": "https://unsplash.com/photos/uk3XZq2yD3I"
+    },
+    {
+      "id": "gMsnXqILjp4",
+      "photographer": "Scott Graham",
+      "category": "paperwork",
+      "description": "Hands organizing financial paperwork and receipts",
+      "suggested_alt": "Organising tax receipts and business expenses for HMRC compliance",
+      "use_case": "Tax relief / expense claims FAQ illustration",
+      "aspect_ratio": "4:3",
+      "license": "Unsplash Free",
+      "url": "https://unsplash.com/photos/gMsnXqILjp4"
+    },
+    {
+      "id": "oCCZwVGLK1Q",
+      "photographer": "Campaign Creators",
+      "category": "planning",
+      "description": "Business strategy planning with notes and charts",
+      "suggested_alt": "Tax planning strategy for Medway contractors and SMEs",
+      "use_case": "Tax planning or IR35 service visual",
+      "aspect_ratio": "3:2",
+      "license": "Unsplash Free",
+      "url": "https://unsplash.com/photos/oCCZwVGLK1Q"
+    }
+  ],
+  "implementation_notes": {
+    "download_instructions": "Use Unsplash API or manual download from URLs above. Convert all to WebP format before deployment.",
+    "attribution": "Attribution not required for Unsplash Free licence, but recommended: 'Photo by [Photographer] on Unsplash'",
+    "optimisation": "Target file sizes: Hero <100KB, service cards <50KB, icons <20KB. Use Next.js Image component with width/height set.",
+    "alt_text_seo": "All suggested alt texts include Medway/Kent geo-keywords and service terms for image SEO.",
+    "backup_search_terms": [
+      "uk accountant office",
+      "small business finance meeting",
+      "tax return paperwork uk",
+      "calculator spreadsheet",
+      "business consultation professional",
+      "bookkeeper ledger",
+      "startup entrepreneur planning",
+      "financial charts laptop",
+      "medway kent office interior",
+      "professional handshake deal"
+    ],
+    "cursor_todo": "Download images, convert to WebP using Squoosh or Sharp CLI, save to /public/images/, update src paths in components"
+  }
+}

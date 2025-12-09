@@ -1,0 +1,108 @@
+{
+  "slug": "ir35-contractors-kent",
+  "title": "IR35 Rules for Contractors in Kent (2025 Guide)",
+  "primary_kw": "IR35 contractors Kent",
+  "secondary_kws": [
+    "IR35 rules 2025 UK",
+    "contractor tax advice Kent",
+    "off-payroll working Kent",
+    "IR35 assessment Kent",
+    "contractor accountant Rochester"
+  ],
+  "city": "Rochester",
+  "county": "Kent",
+  "audience": "contractors and freelancers",
+  "problem": "Confusion about IR35 rules, risk of incorrect tax treatment, and potential penalties for non-compliance with off-payroll working legislation.",
+  "solution": "Expert IR35 assessments, contract reviews, and ongoing compliance support to protect your contracting income and reputation.",
+  "price_note": "IR35 assessments from £200, ongoing support packages available",
+  "cta_text": "Get IR35 Assessment",
+  "internal_links": [
+    "/services/business-advisory",
+    "/contact",
+    "/resources/vat-registration-rochester-kent"
+  ],
+  "last_updated": "2025-01-24",
+  "tldr": [
+    "IR35 determines whether contractors should be taxed as employees - getting it wrong can cost thousands in back-taxes and penalties.",
+    "Get a professional IR35 assessment to protect your contracting business and ensure compliant working arrangements."
+  ],
+  "what_it_is": {
+    "title": "What are IR35 Rules?",
+    "content": "IR35 (off-payroll working) rules determine whether contractors working through their own companies should be taxed as if they were employees. The rules apply to both public and private sector engagements.",
+    "industry_notes": [
+      "IT contractors are heavily scrutinised - software development, project management, and technical consulting roles often fall inside IR35",
+      "Construction industry CIS contractors may also be caught by IR35 depending on working arrangements",
+      "Management consultants and interim executives need careful assessment of control and substitution rights"
+    ]
+  },
+  "checklist": [
+    {
+      "step": 1,
+      "title": "Review Your Contracts",
+      "description": "Analyse working arrangements for control, substitution rights, and mutuality of obligation.",
+      "action": "We'll review your contracts and identify IR35 risk factors"
+    },
+    {
+      "step": 2,
+      "title": "Assess Working Practices",
+      "description": "Document how you actually work - location, hours, direction, and integration with client teams.",
+      "action": "Complete our IR35 working practices questionnaire"
+    },
+    {
+      "step": 3,
+      "title": "Use HMRC's CEST Tool",
+      "description": "Run contracts through HMRC's Check Employment Status for Tax tool for initial guidance.",
+      "action": "We'll complete CEST and provide expert interpretation"
+    },
+    {
+      "step": 4,
+      "title": "Structure Engagements Properly",
+      "description": "Ensure contracts and working practices reflect genuine self-employment where appropriate.",
+      "action": "Get template contracts and working practice guidance"
+    },
+    {
+      "step": 5,
+      "title": "Set Up Compliant Systems",
+      "description": "Implement payroll systems for inside IR35 work and dividend strategies for outside IR35.",
+      "action": "We'll set up your payroll and tax planning systems"
+    }
+  ],
+  "pricing_timeframes": {
+    "ir35_assessment": "£200 - £350 per contract",
+    "ongoing_support": "£150/month including payroll",
+    "timeframe": "Assessment completed within 3-5 working days",
+    "note": "Includes written determination and compliance guidance"
+  },
+  "local_proof": {
+    "title": "Supporting Kent Contractors",
+    "stats": "We've assessed 200+ contracts for Kent-based contractors",
+    "tech_stack": ["CEST tool certified", "Payroll software integrated", "Real-time reporting"],
+    "areas_served": ["Rochester", "Maidstone", "Canterbury", "Dartford", "Tunbridge Wells"]
+  },
+  "faq": [
+    {
+      "q": "What is IR35 and why should contractors in Kent care?",
+      "a": "IR35 rules determine whether contractors should pay tax and National Insurance as if they were employees. Getting caught inside IR35 unexpectedly can result in significant additional tax bills and penalties, particularly for high-earning contractors."
+    },
+    {
+      "q": "How do I know if my contract is inside or outside IR35?",
+      "a": "IR35 status depends on the actual working relationship, not just the contract terms. We assess control, substitution rights, mutuality of obligation, and other factors to determine your status and provide written confirmation."
+    },
+    {
+      "q": "What's the difference between public and private sector IR35 rules?",
+      "a": "For public sector clients, the client determines IR35 status. For private sector clients (medium/large companies), the client also determines status, but small companies are exempt from off-payroll working rules."
+    },
+    {
+      "q": "Can I challenge an inside IR35 determination?",
+      "a": "Yes, you can appeal IR35 determinations through the client's appeals process. We help contractors prepare evidence and arguments for appeals, including contract amendments and working practice changes where appropriate."
+    },
+    {
+      "q": "What records should I keep for IR35 compliance?",
+      "a": "Maintain detailed records of your working arrangements, contracts, invoices, evidence of control (or lack thereof), substitution rights, and any business expenses. We provide record-keeping templates for contractors."
+    },
+    {
+      "q": "How much does IR35 non-compliance cost?",
+      "a": "HMRC can demand additional tax and National Insurance going back up to 6 years, plus penalties of 15-30%. For a contractor earning £80,000, this could mean £15,000+ in additional taxes per year of non-compliance."
+    }
+  ]
+}

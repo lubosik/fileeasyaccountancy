@@ -1,0 +1,13 @@
+Form Type,Page Location,Form Fields,Conversion Goal,Lead Quality,Expected Conversion Rate,Optimization Strategy
+Homepage Enquiry,Homepage Hero Section,"Name, Email, Business Name, Service Needed, Message",Lead Generation,Medium,3%,Simplify form fields
+Service Quote,Service Pages,"Name, Email, Phone, Service Type, Business Size, Message",Service Inquiry,High,5%,Add service-specific fields
+Location Consultation,Location Pages,"Name, Email, Phone, Location, Business Type, Message",Local Lead,High,4%,Add location-specific fields
+Pricing Inquiry,Pricing Page,"Name, Email, Phone, Service Package, Budget Range, Message",Price Inquiry,High,6%,Add budget qualification
+Contact Form,Contact Page,"Name, Email, Phone, Subject, Message, Preferred Contact Method",Contact Inquiry,Medium,5%,Add contact preferences
+FAQ Follow-up,FAQ Page,"Name, Email, Question, Service Interest",Question Resolution,Low,2%,Add service interest
+Blog Lead Capture,Blog Posts,"Name, Email, Service Interest, Company Size",Education + Lead,Low,2%,Add service interest
+Case Study Interest,Case Studies,"Name, Email, Business Type, Service Interest",Social Proof + Lead,Medium,3%,Add business type
+Resource Download,Resource Pages,"Name, Email, Company, Service Interest",Education + Lead,Low,2%,Add company info
+Dubai Services,Dubai Pages,"Name, Email, Phone, Business Type, Service Needed, Message",Service Inquiry,Medium,2%,Add business type
+Free Consultation,All Pages,"Name, Email, Phone, Service Interest, Preferred Time",Consultation Booking,High,4%,Add time preferences
+Emergency Contact,Emergency Pages,"Name, Email, Phone, Urgency Level, Service Needed",Urgent Inquiry,High,8%,Add urgency level

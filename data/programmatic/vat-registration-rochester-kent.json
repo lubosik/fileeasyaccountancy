@@ -1,0 +1,107 @@
+{
+  "slug": "vat-registration-rochester-kent",
+  "title": "VAT Registration in Rochester, Kent (2025 Guide)",
+  "primary_kw": "VAT registration Rochester Kent",
+  "secondary_kws": [
+    "VAT threshold 2025 UK",
+    "voluntary VAT registration Kent",
+    "VAT registration process Rochester",
+    "Kent VAT advisor"
+  ],
+  "city": "Rochester",
+  "county": "Kent",
+  "audience": "SMEs and freelancers",
+  "problem": "Struggling with VAT registration requirements, confused about thresholds, or unsure whether voluntary registration is beneficial for your business.",
+  "solution": "Expert VAT registration guidance, threshold monitoring, and scheme selection advice to ensure compliance and tax efficiency.",
+  "price_note": "From £150 for VAT registration support",
+  "cta_text": "Get VAT Registration Help",
+  "internal_links": [
+    "/services/tax-returns",
+    "/contact",
+    "/resources/ir35-contractors-kent"
+  ],
+  "last_updated": "2025-01-24",
+  "tldr": [
+    "VAT registration is mandatory when your turnover exceeds £85,000 in 12 months, but voluntary registration can benefit cash flow and credibility.",
+    "Contact File Easy for expert VAT registration and ongoing compliance support in Rochester, Kent."
+  ],
+  "what_it_is": {
+    "title": "What is VAT Registration?",
+    "content": "VAT (Value Added Tax) registration is a legal requirement for UK businesses once their taxable turnover exceeds £85,000 in a 12-month period. However, many Rochester businesses benefit from voluntary registration even below this threshold.",
+    "industry_notes": [
+      "Construction/CIS contractors often benefit from early registration due to reverse charge procedures",
+      "E-commerce businesses selling to EU customers need VAT registration for distance selling",
+      "Professional services can improve cash flow through input VAT recovery"
+    ]
+  },
+  "checklist": [
+    {
+      "step": 1,
+      "title": "Check Your Threshold",
+      "description": "Monitor your taxable turnover - register if you exceed £85,000 or expect to in the next 30 days.",
+      "action": "Use HMRC's online calculator or contact us for threshold monitoring"
+    },
+    {
+      "step": 2,
+      "title": "Choose Your VAT Scheme",
+      "description": "Select from Standard, Flat Rate (16.5% for most services), or Cash Accounting schemes.",
+      "action": "We'll help you choose the most tax-efficient option for your business"
+    },
+    {
+      "step": 3,
+      "title": "Gather Required Information",
+      "description": "Business details, bank account, estimated turnover, and business activities.",
+      "action": "Download our VAT registration checklist"
+    },
+    {
+      "step": 4,
+      "title": "Submit Registration",
+      "description": "Complete VAT1 form online or by post - we handle this for you.",
+      "action": "Book a consultation and we'll manage your registration"
+    },
+    {
+      "step": 5,
+      "title": "Set Up VAT Records",
+      "description": "Implement VAT-compliant record keeping and software integration.",
+      "action": "We'll set up your Xero/QuickBooks for VAT compliance"
+    }
+  ],
+  "pricing_timeframes": {
+    "registration_fee": "£150 - £200",
+    "ongoing_returns": "£80 per quarter",
+    "timeframe": "Registration typically takes 2-3 weeks",
+    "note": "Includes scheme selection advice and first return setup"
+  },
+  "local_proof": {
+    "title": "Serving Rochester & Kent Businesses",
+    "stats": "We've helped 150+ Kent businesses with VAT registration",
+    "tech_stack": ["Xero", "QuickBooks", "Making Tax Digital compliant"],
+    "areas_served": ["Rochester", "Chatham", "Maidstone", "Canterbury", "Dartford"]
+  },
+  "faq": [
+    {
+      "q": "When do I need to register for VAT in the UK?",
+      "a": "You must register for VAT if your taxable turnover exceeds £85,000 in any 12-month period, or if you expect it to exceed this threshold in the next 30 days. However, voluntary registration can benefit many businesses below this threshold."
+    },
+    {
+      "q": "Should I choose Flat Rate or Standard VAT scheme?",
+      "a": "Flat Rate VAT (16.5% for most services) is simpler but may not always be most cost-effective. We analyse your business expenses and input VAT recovery potential to recommend the best scheme for your situation."
+    },
+    {
+      "q": "Can I register for VAT before reaching the threshold?",
+      "a": "Yes, voluntary VAT registration is available and often beneficial for businesses that purchase significant materials/services with VAT, sell mainly to VAT-registered businesses, or want to appear more established."
+    },
+    {
+      "q": "What happens if I miss the VAT registration deadline?",
+      "a": "Late registration can result in penalties and backdated VAT liability. HMRC may require you to account for VAT from when you should have registered, even if you didn't charge it to customers."
+    },
+    {
+      "q": "Do I need an accountant for VAT registration in Kent?",
+      "a": "While not mandatory, using a qualified accountant ensures correct scheme selection, compliance from day one, and ongoing support. Our Kent-based service includes registration, setup, and quarterly returns."
+    },
+    {
+      "q": "How long does VAT registration take in the UK?",
+      "a": "HMRC typically processes VAT registration within 2-3 weeks of receiving a complete application. We ensure your application is complete and correct to avoid delays or requests for additional information."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "limited-company-setup-kent",
+  "title": "Limited Company Setup in Kent (2025 Guide)",
+  "primary_kw": "limited company setup Kent",
+  "secondary_kws": [
+    "company formation Rochester",
+    "limited company registration Kent",
+    "start business Kent",
+    "company formation agent Kent"
+  ],
+  "city": "Rochester",
+  "county": "Kent",
+  "audience": "entrepreneurs and sole traders",
+  "problem": "Overwhelmed by company formation paperwork, unsure about business structure benefits, or need guidance on post-incorporation compliance requirements.",
+  "solution": "Complete company formation service including registration, bank account setup, and ongoing compliance support for Kent businesses.",
+  "price_note": "From £200 for complete company formation",
+  "cta_text": "Start Your Company",
+  "internal_links": [
+    "/services",
+    "/contact",
+    "/resources/vat-registration-rochester-kent"
+  ],
+  "last_updated": "2025-01-24",
+  "tldr": [
+    "Limited companies offer liability protection and tax advantages but require ongoing compliance - incorporation takes 24-48 hours online.",
+    "Get expert company formation and post-incorporation support to start your Kent business properly."
+  ],
+  "what_it_is": {
+    "title": "What is Limited Company Formation?",
+    "content": "Limited company formation creates a separate legal entity for your business, offering liability protection and potential tax advantages. It's suitable for businesses with higher profits or those seeking professional credibility.",
+    "industry_notes": [
+      "Contractors and freelancers often incorporate to reduce tax liability and manage IR35 compliance",
+      "E-commerce businesses benefit from limited liability when selling to consumers",
+      "Professional services use limited companies for credibility and client confidence"
+    ]
+  },
+  "checklist": [
+    {
+      "step": 1,
+      "title": "Choose Company Name",
+      "description": "Check availability and reserve your preferred company name with Companies House.",
+      "action": "We'll check name availability and handle reservation"
+    },
+    {
+      "step": 2,
+      "title": "Prepare Required Information",
+      "description": "Gather director details, registered office address, and share structure information.",
+      "action": "Use our service address or provide your own registered office"
+    },
+    {
+      "step": 3,
+      "title": "File Incorporation Documents",
+      "description": "Submit Articles of Association and Form IN01 to Companies House electronically.",
+      "action": "We handle all Companies House filings for you"
+    },
+    {
+      "step": 4,
+      "title": "Obtain Required Registrations",
+      "description": "Register for Corporation Tax, PAYE (if needed), and consider VAT registration.",
+      "action": "We'll register your company for all required taxes"
+    },
+    {
+      "step": 5,
+      "title": "Set Up Business Banking",
+      "description": "Open business bank account and set up accounting systems and processes.",
+      "action": "Bank introduction service and accounting software setup included"
+    }
+  ],
+  "pricing_timeframes": {
+    "formation_package": "£200 - £350",
+    "ongoing_compliance": "From £280/month",
+    "timeframe": "24-48 hours for electronic incorporation",
+    "note": "Includes Companies House fees, registered office, and first year compliance"
+  },
+  "local_proof": {
+    "title": "Kent Business Formation Specialists",
+    "stats": "We've helped 300+ entrepreneurs start companies in Kent",
+    "tech_stack": ["Companies House integration", "Digital bank introductions", "Cloud accounting setup"],
+    "areas_served": ["Rochester", "Maidstone", "Canterbury", "Dartford", "Sevenoaks"]
+  },
+  "faq": [
+    {
+      "q": "What are the benefits of forming a limited company in Kent?",
+      "a": "Limited companies offer liability protection, potential tax advantages (Corporation Tax vs Income Tax), professional credibility, and easier access to business funding. For profitable businesses, the tax savings often exceed the additional compliance costs."
+    },
+    {
+      "q": "How long does company formation take in the UK?",
+      "a": "Electronic incorporation through Companies House typically takes 24-48 hours. We can expedite this to same-day incorporation for urgent requirements. Postal applications take 8-10 days."
+    },
+    {
+      "q": "Do I need a registered office address in Kent?",
+      "a": "Yes, every company needs a UK registered office address. This can be your home address, but many businesses prefer to use a professional address. We provide registered office services for privacy and professionalism."
+    },
+    {
+      "q": "What ongoing obligations do limited companies have?",
+      "a": "Companies must file annual accounts, confirmation statements, and Corporation Tax returns with HMRC. They also need proper bookkeeping, board meetings, and dividend documentation. We handle all these requirements."
+    },
+    {
+      "q": "Should I incorporate as a sole trader or limited company?",
+      "a": "The decision depends on your profits, liability concerns, and tax situation. Generally, limited companies become tax-efficient when profits exceed £12,570 annually, but each situation is unique."
+    },
+    {
+      "q": "Can I change from sole trader to limited company later?",
+      "a": "Yes, you can incorporate an existing sole trader business. This involves transferring assets, closing sole trader records with HMRC, and setting up company systems. We manage the entire transition process."
+    }
+  ]
+}

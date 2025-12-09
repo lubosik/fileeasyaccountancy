@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://fileeasyaccountancy.co.uk/#organization",
+  "name": "Fileeasy Accountancy",
+  "alternateName": "File Easy Accountancy",
+  "url": "https://fileeasyaccountancy.co.uk",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://fileeasyaccountancy.co.uk/logo.png",
+    "width": 600,
+    "height": 60
+  },
+  "description": "Professional accountancy services for Medway businesses and individuals. Expert tax returns, bookkeeping, VAT, and business advisory in Kent.",
+  "email": "hello@fileeasyaccountancy.co.uk",
+  "telephone": "+447894447435",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Chatham Business Centre",
+    "addressLocality": "Chatham",
+    "addressRegion": "Kent",
+    "postalCode": "ME4 4AA",
+    "addressCountry": "GB"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/fileeasy-accountancy",
+    "https://www.google.com/maps?cid=0x47d8cd14844b6e53:0x4d94bad817be51bb"
+  ],
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "51.3883",
+      "longitude": "0.5083"
+    },
+    "geoRadius": "15000",
+    "name": "Medway, Kent"
+  }
+}

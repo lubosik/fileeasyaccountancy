@@ -1,0 +1,610 @@
+{
+  "migration": "Move 86 service articles to Resources",
+  "date": "2025-01-31",
+  "total_articles": 86,
+  "articles": [
+    {
+      "slug": "ad-hoc-accounting-catch-up-bookkeeping",
+      "from": "/services/core/ad-hoc-accounting-catch-up-bookkeeping",
+      "to": "/resources/ad-hoc-accounting-catch-up-bookkeeping",
+      "category": "core",
+      "title": "Ad-Hoc Accounting & Catch-Up Bookkeeping"
+    },
+    {
+      "slug": "airbnb-short-term-let-tax-returns",
+      "from": "/services/tax/airbnb-short-term-let-tax-returns",
+      "to": "/resources/airbnb-short-term-let-tax-returns",
+      "category": "tax",
+      "title": "Airbnb Short-Term Let Tax Returns"
+    },
+    {
+      "slug": "amended-tax-returns",
+      "from": "/services/tax/amended-tax-returns",
+      "to": "/resources/amended-tax-returns",
+      "category": "tax",
+      "title": "Amended Tax Returns"
+    },
+    {
+      "slug": "audit-ready-bookkeeping-hmrc-companies-house",
+      "from": "/services/core/audit-ready-bookkeeping-hmrc-companies-house",
+      "to": "/resources/audit-ready-bookkeeping-hmrc-companies-house",
+      "category": "core",
+      "title": "Audit-Ready Bookkeeping (HMRC, Companies House)"
+    },
+    {
+      "slug": "auto-enrolment-pensions",
+      "from": "/services/core/auto-enrolment-pensions",
+      "to": "/resources/auto-enrolment-pensions",
+      "category": "core",
+      "title": "Auto-Enrolment Pensions"
+    },
+    {
+      "slug": "bookkeeping-audits-data-cleanup",
+      "from": "/services/bookkeeping/bookkeeping-audits-data-cleanup",
+      "to": "/resources/bookkeeping-audits-data-cleanup",
+      "category": "bookkeeping",
+      "title": "Bookkeeping Audits & Data Cleanup"
+    },
+    {
+      "slug": "bookkeeping-contractors-ir35",
+      "from": "/services/bookkeeping/bookkeeping-contractors-ir35",
+      "to": "/resources/bookkeeping-contractors-ir35",
+      "category": "bookkeeping",
+      "title": "Bookkeeping for Contractors (IR35)"
+    },
+    {
+      "slug": "bookkeeping-ecommerce-amazon-etsy-shopify",
+      "from": "/services/bookkeeping/bookkeeping-ecommerce-amazon-etsy-shopify",
+      "to": "/resources/bookkeeping-ecommerce-amazon-etsy-shopify",
+      "category": "bookkeeping",
+      "title": "E-commerce Bookkeeping (Amazon, Etsy, Shopify)"
+    },
+    {
+      "slug": "bookkeeping-landlords-property-investors",
+      "from": "/services/bookkeeping/bookkeeping-landlords-property-investors",
+      "to": "/resources/bookkeeping-landlords-property-investors",
+      "category": "bookkeeping",
+      "title": "Bookkeeping for Landlords & Property Investors"
+    },
+    {
+      "slug": "bookkeeping-migration-excel-to-xero-quickbooks",
+      "from": "/services/bookkeeping/bookkeeping-migration-excel-to-xero-quickbooks",
+      "to": "/resources/bookkeeping-migration-excel-to-xero-quickbooks",
+      "category": "bookkeeping",
+      "title": "Bookkeeping Migration (Excel to Xero/QuickBooks)"
+    },
+    {
+      "slug": "bookkeeping-partnerships-llps",
+      "from": "/services/bookkeeping/bookkeeping-partnerships-llps",
+      "to": "/resources/bookkeeping-partnerships-llps",
+      "category": "bookkeeping",
+      "title": "Bookkeeping for Partnerships & LLPs"
+    },
+    {
+      "slug": "bookkeeping-setup-making-tax-digital",
+      "from": "/services/bookkeeping/bookkeeping-setup-making-tax-digital",
+      "to": "/resources/bookkeeping-setup-making-tax-digital",
+      "category": "bookkeeping",
+      "title": "Bookkeeping Setup (Making Tax Digital)"
+    },
+    {
+      "slug": "bookkeeping-sole-traders-freelancers",
+      "from": "/services/bookkeeping/bookkeeping-sole-traders-freelancers",
+      "to": "/resources/bookkeeping-sole-traders-freelancers",
+      "category": "bookkeeping",
+      "title": "Bookkeeping for Sole Traders & Freelancers"
+    },
+    {
+      "slug": "bookkeeping-startup-businesses",
+      "from": "/services/bookkeeping/bookkeeping-startup-businesses",
+      "to": "/resources/bookkeeping-startup-businesses",
+      "category": "bookkeeping",
+      "title": "Bookkeeping for Startup Businesses"
+    },
+    {
+      "slug": "budget-vs-actual-reporting",
+      "from": "/services/bookkeeping/budget-vs-actual-reporting",
+      "to": "/resources/budget-vs-actual-reporting",
+      "category": "bookkeeping",
+      "title": "Budget vs Actual Reporting"
+    },
+    {
+      "slug": "business-expense-categorisation-tracking",
+      "from": "/services/bookkeeping/business-expense-categorisation-tracking",
+      "to": "/resources/business-expense-categorisation-tracking",
+      "category": "bookkeeping",
+      "title": "Business Expense Categorisation & Tracking"
+    },
+    {
+      "slug": "business-structure-review",
+      "from": "/services/core/business-structure-review",
+      "to": "/resources/business-structure-review",
+      "category": "core",
+      "title": "Business Structure Review"
+    },
+    {
+      "slug": "capital-gains-tax-returns",
+      "from": "/services/tax/capital-gains-tax-returns",
+      "to": "/resources/capital-gains-tax-returns",
+      "category": "tax",
+      "title": "Capital Gains Tax Returns"
+    },
+    {
+      "slug": "cash-flow-focused-bookkeeping",
+      "from": "/services/bookkeeping/cash-flow-focused-bookkeeping",
+      "to": "/resources/cash-flow-focused-bookkeeping",
+      "category": "bookkeeping",
+      "title": "Cash Flow Focused Bookkeeping"
+    },
+    {
+      "slug": "catch-up-bookkeeping-hmrc-deadlines",
+      "from": "/services/bookkeeping/catch-up-bookkeeping-hmrc-deadlines",
+      "to": "/resources/catch-up-bookkeeping-hmrc-deadlines",
+      "category": "bookkeeping",
+      "title": "Catch-Up Bookkeeping (HMRC Deadlines)"
+    },
+    {
+      "slug": "chart-of-accounts-setup-limited-companies",
+      "from": "/services/bookkeeping/chart-of-accounts-setup-limited-companies",
+      "to": "/resources/chart-of-accounts-setup-limited-companies",
+      "category": "bookkeeping",
+      "title": "Chart of Accounts Setup for Limited Companies"
+    },
+    {
+      "slug": "child-benefit-hicbc-support",
+      "from": "/services/tax/child-benefit-hicbc-support",
+      "to": "/resources/child-benefit-hicbc-support",
+      "category": "tax",
+      "title": "Child Benefit HICBC Support"
+    },
+    {
+      "slug": "cis-contractor-subcontractor-tax-filing",
+      "from": "/services/tax/cis-contractor-subcontractor-tax-filing",
+      "to": "/resources/cis-contractor-subcontractor-tax-filing",
+      "category": "tax",
+      "title": "CIS Contractor & Subcontractor Tax Filing"
+    },
+    {
+      "slug": "cis-payroll-tax-submissions",
+      "from": "/services/core/cis-payroll-tax-submissions",
+      "to": "/resources/cis-payroll-tax-submissions",
+      "category": "core",
+      "title": "CIS Payroll & Tax Submissions"
+    },
+    {
+      "slug": "cloud-accounting-setup-xero-quickbooks-sage",
+      "from": "/services/core/cloud-accounting-setup-xero-quickbooks-sage",
+      "to": "/resources/cloud-accounting-setup-xero-quickbooks-sage",
+      "category": "core",
+      "title": "Cloud Accounting Setup (Xero, QuickBooks, Sage)"
+    },
+    {
+      "slug": "cloud-accounting-training-onboarding",
+      "from": "/services/bookkeeping/cloud-accounting-training-onboarding",
+      "to": "/resources/cloud-accounting-training-onboarding",
+      "category": "bookkeeping",
+      "title": "Cloud Accounting Training & Onboarding"
+    },
+    {
+      "slug": "cloud-bookkeeping-xero-quickbooks",
+      "from": "/services/bookkeeping/cloud-bookkeeping-xero-quickbooks",
+      "to": "/resources/cloud-bookkeeping-xero-quickbooks",
+      "category": "bookkeeping",
+      "title": "Cloud Bookkeeping (Xero, QuickBooks)"
+    },
+    {
+      "slug": "companies-house-filing",
+      "from": "/services/core/companies-house-filing",
+      "to": "/resources/companies-house-filing",
+      "category": "core",
+      "title": "Companies House Filing"
+    },
+    {
+      "slug": "company-director-tax-returns",
+      "from": "/services/tax/company-director-tax-returns",
+      "to": "/resources/company-director-tax-returns",
+      "category": "tax",
+      "title": "Company Director Tax Returns"
+    },
+    {
+      "slug": "company-formation-bank-setup",
+      "from": "/services/core/company-formation-bank-setup",
+      "to": "/resources/company-formation-bank-setup",
+      "category": "core",
+      "title": "Company Formation & Bank Setup"
+    },
+    {
+      "slug": "construction-bookkeeping-cis-compliant",
+      "from": "/services/bookkeeping/construction-bookkeeping-cis-compliant",
+      "to": "/resources/construction-bookkeeping-cis-compliant",
+      "category": "bookkeeping",
+      "title": "Construction Bookkeeping (CIS Compliant)"
+    },
+    {
+      "slug": "corporation-tax-ct600-filing",
+      "from": "/services/tax/corporation-tax-ct600-filing",
+      "to": "/resources/corporation-tax-ct600-filing",
+      "category": "tax",
+      "title": "Corporation Tax (CT600) Filing"
+    },
+    {
+      "slug": "cost-efficiency-operational-improvement",
+      "from": "/services/advisory/cost-efficiency-operational-improvement",
+      "to": "/resources/cost-efficiency-operational-improvement",
+      "category": "advisory",
+      "title": "Cost Efficiency & Operational Improvement"
+    },
+    {
+      "slug": "crypto-tax-returns",
+      "from": "/services/tax/crypto-tax-returns",
+      "to": "/resources/crypto-tax-returns",
+      "category": "tax",
+      "title": "Crypto Tax Returns"
+    },
+    {
+      "slug": "crypto-transaction-bookkeeping",
+      "from": "/services/bookkeeping/crypto-transaction-bookkeeping",
+      "to": "/resources/crypto-transaction-bookkeeping",
+      "category": "bookkeeping",
+      "title": "Crypto Transaction Bookkeeping"
+    },
+    {
+      "slug": "dividend-planning-ltd-directors",
+      "from": "/services/core/dividend-planning-ltd-directors",
+      "to": "/resources/dividend-planning-ltd-directors",
+      "category": "core",
+      "title": "Dividend Planning for Ltd Directors"
+    },
+    {
+      "slug": "dividend-vs-salary-optimisation-planning",
+      "from": "/services/tax/dividend-vs-salary-optimisation-planning",
+      "to": "/resources/dividend-vs-salary-optimisation-planning",
+      "category": "tax",
+      "title": "Dividend vs Salary Optimization Planning"
+    },
+    {
+      "slug": "dual-uk-dubai-residency-tax-planning",
+      "from": "/services/tax/dual-uk-dubai-residency-tax-planning",
+      "to": "/resources/dual-uk-dubai-residency-tax-planning",
+      "category": "tax",
+      "title": "Dual UK-Dubai Residency Tax Planning"
+    },
+    {
+      "slug": "financial-dashboards-kpi-tracking",
+      "from": "/services/bookkeeping/financial-dashboards-kpi-tracking",
+      "to": "/resources/financial-dashboards-kpi-tracking",
+      "category": "bookkeeping",
+      "title": "Financial Dashboards & KPI Tracking"
+    },
+    {
+      "slug": "financial-health-check-kpi-dashboard",
+      "from": "/services/advisory/financial-health-check-kpi-dashboard",
+      "to": "/resources/financial-health-check-kpi-dashboard",
+      "category": "advisory",
+      "title": "Financial Health Check & KPI Dashboard"
+    },
+    {
+      "slug": "foreign-income-tax-support",
+      "from": "/services/tax/foreign-income-tax-support",
+      "to": "/resources/foreign-income-tax-support",
+      "category": "tax",
+      "title": "Foreign Income Tax Support"
+    },
+    {
+      "slug": "franchise-bookkeeping-support",
+      "from": "/services/bookkeeping/franchise-bookkeeping-support",
+      "to": "/resources/franchise-bookkeeping-support",
+      "category": "bookkeeping",
+      "title": "Franchise Bookkeeping Support"
+    },
+    {
+      "slug": "growth-strategy-profitability-improvement",
+      "from": "/services/advisory/growth-strategy-profitability-improvement",
+      "to": "/resources/growth-strategy-profitability-improvement",
+      "category": "advisory",
+      "title": "Growth Strategy & Profitability Improvement"
+    },
+    {
+      "slug": "high-earner-tax-planning",
+      "from": "/services/tax/high-earner-tax-planning",
+      "to": "/resources/high-earner-tax-planning",
+      "category": "tax",
+      "title": "High Earner Tax Planning"
+    },
+    {
+      "slug": "hmrc-enquiry-investigation-support",
+      "from": "/services/advisory/hmrc-enquiry-investigation-support",
+      "to": "/resources/hmrc-enquiry-investigation-support",
+      "category": "advisory",
+      "title": "HMRC Enquiry & Investigation Support"
+    },
+    {
+      "slug": "industry-specific-bookkeeping",
+      "from": "/services/bookkeeping/industry-specific-bookkeeping",
+      "to": "/resources/industry-specific-bookkeeping",
+      "category": "bookkeeping",
+      "title": "Industry-Specific Bookkeeping"
+    },
+    {
+      "slug": "influencer-creator-tax-returns",
+      "from": "/services/tax/influencer-creator-tax-returns",
+      "to": "/resources/influencer-creator-tax-returns",
+      "category": "tax",
+      "title": "Influencer & Creator Tax Returns"
+    },
+    {
+      "slug": "international-accounting-uk-dubai",
+      "from": "/services/core/international-accounting-uk-dubai",
+      "to": "/resources/international-accounting-uk-dubai",
+      "category": "core",
+      "title": "International Accounting (UK-Dubai)"
+    },
+    {
+      "slug": "invoice-processing-debtor-tracking",
+      "from": "/services/bookkeeping/invoice-processing-debtor-tracking",
+      "to": "/resources/invoice-processing-debtor-tracking",
+      "category": "bookkeeping",
+      "title": "Invoice Processing & Debtor Tracking"
+    },
+    {
+      "slug": "ir35-tax-status-review-returns",
+      "from": "/services/tax/ir35-tax-status-review-returns",
+      "to": "/resources/ir35-tax-status-review-returns",
+      "category": "tax",
+      "title": "IR35 Tax Status Review & Returns"
+    },
+    {
+      "slug": "landlord-tax-returns",
+      "from": "/services/tax/landlord-tax-returns",
+      "to": "/resources/landlord-tax-returns",
+      "category": "tax",
+      "title": "Landlord Tax Returns"
+    },
+    {
+      "slug": "late-or-backdated-tax-returns",
+      "from": "/services/tax/late-or-backdated-tax-returns",
+      "to": "/resources/late-or-backdated-tax-returns",
+      "category": "tax",
+      "title": "Late or Backdated Tax Returns"
+    },
+    {
+      "slug": "management-accounts-monthly-reporting",
+      "from": "/services/core/management-accounts-monthly-reporting",
+      "to": "/resources/management-accounts-monthly-reporting",
+      "category": "core",
+      "title": "Management Accounts & Monthly Reporting"
+    },
+    {
+      "slug": "monthly-bookkeeping-bank-reconciliation",
+      "from": "/services/bookkeeping/monthly-bookkeeping-bank-reconciliation",
+      "to": "/resources/monthly-bookkeeping-bank-reconciliation",
+      "category": "bookkeeping",
+      "title": "Monthly Bookkeeping with Bank Reconciliation"
+    },
+    {
+      "slug": "mtd-compliance-vat-bridging",
+      "from": "/services/core/mtd-compliance-vat-bridging",
+      "to": "/resources/mtd-compliance-vat-bridging",
+      "category": "core",
+      "title": "MTD Compliance & VAT Bridging"
+    },
+    {
+      "slug": "multi-currency-bookkeeping",
+      "from": "/services/bookkeeping/multi-currency-bookkeeping",
+      "to": "/resources/multi-currency-bookkeeping",
+      "category": "bookkeeping",
+      "title": "Multi-Currency Bookkeeping"
+    },
+    {
+      "slug": "multiple-income-streams-tax-support",
+      "from": "/services/tax/multiple-income-streams-tax-support",
+      "to": "/resources/multiple-income-streams-tax-support",
+      "category": "tax",
+      "title": "Multiple Income Streams Tax Support"
+    },
+    {
+      "slug": "non-resident-landlord-nrl-tax-filing",
+      "from": "/services/tax/non-resident-landlord-nrl-tax-filing",
+      "to": "/resources/non-resident-landlord-nrl-tax-filing",
+      "category": "tax",
+      "title": "Non-Resident Landlord (NRL) Tax Filing"
+    },
+    {
+      "slug": "partnership-tax-returns",
+      "from": "/services/tax/partnership-tax-returns",
+      "to": "/resources/partnership-tax-returns",
+      "category": "tax",
+      "title": "Partnership Tax Returns"
+    },
+    {
+      "slug": "paye-director-payroll-alignment",
+      "from": "/services/tax/paye-director-payroll-alignment",
+      "to": "/resources/paye-director-payroll-alignment",
+      "category": "tax",
+      "title": "PAYE Director Payroll Alignment"
+    },
+    {
+      "slug": "payroll-integration-with-bookkeeping",
+      "from": "/services/bookkeeping/payroll-integration-with-bookkeeping",
+      "to": "/resources/payroll-integration-with-bookkeeping",
+      "category": "bookkeeping",
+      "title": "Payroll Integration with Bookkeeping"
+    },
+    {
+      "slug": "payroll-paye-p60-p45",
+      "from": "/services/core/payroll-paye-p60-p45",
+      "to": "/resources/payroll-paye-p60-p45",
+      "category": "core",
+      "title": "Payroll (PAYE, P60, P45)"
+    },
+    {
+      "slug": "payroll-processing",
+      "from": "/services/payroll/payroll-processing",
+      "to": "/resources/payroll-processing",
+      "category": "payroll",
+      "title": "Payroll Processing"
+    },
+    {
+      "slug": "pension-tax-relief-claims",
+      "from": "/services/tax/pension-tax-relief-claims",
+      "to": "/resources/pension-tax-relief-claims",
+      "category": "tax",
+      "title": "Pension Tax Relief Claims"
+    },
+    {
+      "slug": "post-year-end-tax-saving-strategy",
+      "from": "/services/tax/post-year-end-tax-saving-strategy",
+      "to": "/resources/post-year-end-tax-saving-strategy",
+      "category": "tax",
+      "title": "Post-Year-End Tax Saving Strategy"
+    },
+    {
+      "slug": "project-based-ad-hoc-bookkeeping",
+      "from": "/services/bookkeeping/project-based-ad-hoc-bookkeeping",
+      "to": "/resources/project-based-ad-hoc-bookkeeping",
+      "category": "bookkeeping",
+      "title": "Project-Based Ad-Hoc Bookkeeping"
+    },
+    {
+      "slug": "quarterly-vat-returns",
+      "from": "/services/core/quarterly-vat-returns",
+      "to": "/resources/quarterly-vat-returns",
+      "category": "core",
+      "title": "Quarterly VAT Returns"
+    },
+    {
+      "slug": "r-and-d-tax-credit-eligibility",
+      "from": "/services/tax/r-and-d-tax-credit-eligibility",
+      "to": "/resources/r-and-d-tax-credit-eligibility",
+      "category": "tax",
+      "title": "R&D Tax Credit Eligibility"
+    },
+    {
+      "slug": "receipt-scanning-digital-records",
+      "from": "/services/bookkeeping/receipt-scanning-digital-records",
+      "to": "/resources/receipt-scanning-digital-records",
+      "category": "bookkeeping",
+      "title": "Receipt Scanning & Digital Records"
+    },
+    {
+      "slug": "registered-office-service",
+      "from": "/services/core/registered-office-service",
+      "to": "/resources/registered-office-service",
+      "category": "core",
+      "title": "Registered Office Service"
+    },
+    {
+      "slug": "remote-cloud-accounting-uk-kent",
+      "from": "/services/core/remote-cloud-accounting-uk-kent",
+      "to": "/resources/remote-cloud-accounting-uk-kent",
+      "category": "core",
+      "title": "Remote Cloud Accounting (UK-Kent)"
+    },
+    {
+      "slug": "reverse-charge-vat",
+      "from": "/services/vat/reverse-charge-vat",
+      "to": "/resources/reverse-charge-vat",
+      "category": "vat",
+      "title": "Reverse Charge VAT"
+    },
+    {
+      "slug": "self-assessment-investment-income",
+      "from": "/services/tax/self-assessment-investment-income",
+      "to": "/resources/self-assessment-investment-income",
+      "category": "tax",
+      "title": "Self-Assessment Investment Income"
+    },
+    {
+      "slug": "self-assessment-sole-traders",
+      "from": "/services/tax/self-assessment-sole-traders",
+      "to": "/resources/self-assessment-sole-traders",
+      "category": "tax",
+      "title": "Self-Assessment for Sole Traders"
+    },
+    {
+      "slug": "self-assessment-uber-gig-economy",
+      "from": "/services/tax/self-assessment-uber-gig-economy",
+      "to": "/resources/self-assessment-uber-gig-economy",
+      "category": "tax",
+      "title": "Self-Assessment (Uber/Gig Economy)"
+    },
+    {
+      "slug": "sole-trader-to-limited-company-tax-transitions",
+      "from": "/services/tax/sole-trader-to-limited-company-tax-transitions",
+      "to": "/resources/sole-trader-to-limited-company-tax-transitions",
+      "category": "tax",
+      "title": "Sole Trader to Limited Company Tax Transitions"
+    },
+    {
+      "slug": "student-loan-alignment-in-tax-return",
+      "from": "/services/tax/student-loan-alignment-in-tax-return",
+      "to": "/resources/student-loan-alignment-in-tax-return",
+      "category": "tax",
+      "title": "Student Loan Alignment in Tax Return"
+    },
+    {
+      "slug": "tax-planning-optimization",
+      "from": "/services/tax/tax-planning-optimization",
+      "to": "/resources/tax-planning-optimization",
+      "category": "tax",
+      "title": "Tax Planning & Optimization"
+    },
+    {
+      "slug": "tax-planning-review-forecast",
+      "from": "/services/tax/tax-planning-review-forecast",
+      "to": "/resources/tax-planning-review-forecast",
+      "category": "tax",
+      "title": "Tax Planning Review & Forecast"
+    },
+    {
+      "slug": "trust-estate-tax-returns",
+      "from": "/services/tax/trust-estate-tax-returns",
+      "to": "/resources/trust-estate-tax-returns",
+      "category": "tax",
+      "title": "Trust & Estate Tax Returns"
+    },
+    {
+      "slug": "vat-compliance-reviews",
+      "from": "/services/vat/vat-compliance-reviews",
+      "to": "/resources/vat-compliance-reviews",
+      "category": "vat",
+      "title": "VAT Compliance Reviews"
+    },
+    {
+      "slug": "vat-ready-bookkeeping-reconciliation",
+      "from": "/services/bookkeeping/vat-ready-bookkeeping-reconciliation",
+      "to": "/resources/vat-ready-bookkeeping-reconciliation",
+      "category": "bookkeeping",
+      "title": "VAT-Ready Bookkeeping & Reconciliation"
+    },
+    {
+      "slug": "vat-registration-advisory",
+      "from": "/services/core/vat-registration-advisory",
+      "to": "/resources/vat-registration-advisory",
+      "category": "core",
+      "title": "VAT Registration Advisory"
+    },
+    {
+      "slug": "vat-scheme-advisory-flat-rate-annual",
+      "from": "/services/core/vat-scheme-advisory-flat-rate-annual",
+      "to": "/resources/vat-scheme-advisory-flat-rate-annual",
+      "category": "core",
+      "title": "VAT Scheme Advisory (Flat Rate, Annual)"
+    },
+    {
+      "slug": "weekly-transactional-bookkeeping",
+      "from": "/services/bookkeeping/weekly-transactional-bookkeeping",
+      "to": "/resources/weekly-transactional-bookkeeping",
+      "category": "bookkeeping",
+      "title": "Weekly Transactional Bookkeeping"
+    },
+    {
+      "slug": "year-end-reconciliation-account-prep",
+      "from": "/services/bookkeeping/year-end-reconciliation-account-prep",
+      "to": "/resources/year-end-reconciliation-account-prep",
+      "category": "bookkeeping",
+      "title": "Year-End Reconciliation & Account Prep"
+    }
+  ]
+}
+

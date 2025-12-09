@@ -1,0 +1,13 @@
+Lead Source,Lead Quality,Follow-up Sequence,Timeline,Content Type,Conversion Goal,Expected Conversion Rate
+Homepage Enquiry,Medium,Email + Phone,24 hours,Service overview + consultation offer,Consultation booking,40%
+Service Quote,High,Email + Phone,2 hours,Service-specific information + pricing,Service agreement,60%
+Location Consultation,High,Email + Phone,1 hour,Local expertise + case studies,Local consultation,70%
+Pricing Inquiry,High,Email + Phone,1 hour,Pricing details + value proposition,Price discussion,50%
+Contact Form,Medium,Email + Phone,4 hours,General information + consultation offer,Consultation booking,30%
+FAQ Follow-up,Low,Email only,24 hours,FAQ answers + service information,Service interest,20%
+Blog Lead Capture,Low,Email only,48 hours,Educational content + service offers,Service interest,15%
+Case Study Interest,Medium,Email + Phone,24 hours,Case study details + consultation offer,Consultation booking,35%
+Resource Download,Low,Email only,48 hours,Resource content + service information,Service interest,10%
+Dubai Services,Medium,Email + Phone,24 hours,Dubai expertise + compliance information,Service inquiry,25%
+Free Consultation,High,Email + Phone,1 hour,Consultation confirmation + preparation,Consultation attendance,80%
+Emergency Contact,High,Phone + Email,30 minutes,Emergency response + immediate help,Urgent service,90%

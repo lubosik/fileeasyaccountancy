@@ -1,0 +1,25 @@
+# Vercel Environment Variables Template
+# Copy these to Vercel Dashboard → Settings → Environment Variables
+# Replace YOUR_*_HERE with actual values
+
+GHL_API_KEY=YOUR_GHL_API_KEY_HERE
+GHL_LOCATION_ID=paq1Vfk9uvFu0imJwcVU
+GHL_API_BASE=https://services.leadconnectorhq.com
+GHL_API_VERSION=2021-07-28
+GHL_CF_DISCOVERY_BASE=https://rest.gohighlevel.com
+GHL_CF_DISCOVERY_PATH=/v1/custom-fields/
+
+FIRMCHECK_API_KEY=YOUR_FIRMCHECK_API_KEY_HERE
+FIRMCHECK_API_BASE=https://api.firmcheck.com
+FIRMCHECK_ACCEPT_VERSION=1.0.0
+
+STRIPE_SECRET_KEY=YOUR_STRIPE_SECRET_KEY_HERE
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=YOUR_STRIPE_PUBLISHABLE_KEY_HERE
+STRIPE_WEBHOOK_SECRET=whsec_G00Yi85FLz6ZuFVp53jvyFPRRPojpohY
+
+FE_GHL_AML_ENABLED=true
+NEXT_PUBLIC_FE_GHL_AML_ENABLED=true
+
+NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
+DEPOSIT_AMOUNT_PENCE=10000
+

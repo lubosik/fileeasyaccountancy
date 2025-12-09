@@ -1,0 +1,8 @@
+Factor,Weight,Description,Scoring Method,File Easy Advantage
+Search Volume,25%,Monthly search volume indicates demand,0-100 scale based on volume,Medium (Kent: 720, Dubai: 3600)
+Competition Level,20%,Lower competition = easier to rank,0-100 scale (LOW=90, MEDIUM=60, HIGH=30),High (Most keywords are LOW competition)
+Difficulty Score,20%,DataForSEO difficulty rating,0-100 scale (inverse of difficulty),High (Most keywords have low difficulty)
+CPC Value,15%,Higher CPC indicates commercial intent,0-100 scale based on CPC,High (Kent: £8-16, Dubai: $0.27-0.94)
+Intent Match,10%,Commercial intent matches business goals,Commercial=100, Informational=50, Transactional=80,High (Most keywords are Commercial)
+Local Relevance,10%,Geographic relevance to target markets,0-100 scale based on location specificity,High (All keywords are location-specific)
+Total Score,100%,Weighted average of all factors,Sum of weighted scores,File Easy Score: 85/100

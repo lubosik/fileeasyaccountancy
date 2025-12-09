@@ -1,0 +1,79 @@
+Phase,Priority,Task,Owner,File Target,Acceptance Criteria,Estimated Hours
+1,High,Choose canonical domain (apex vs www),Cursor,next.config.ts,Decision documented and DNS configured,0.5
+1,High,Configure DNS (A record + CNAME),Cursor,Namecheap DNS,Apex and www both resolve to HTTPS,0.5
+1,High,Enable SSL certificate,Cursor,Namecheap cPanel,Site loads on HTTPS with A+ rating,0.5
+1,High,Implement 301 redirects (HTTP→HTTPS + www→apex),Cursor,next.config.ts OR .htaccess,All redirect tests pass,1
+1,High,Add canonical tags to all pages,Cursor,app/layout.tsx + page.tsx,Canonical present in <head>,0.5
+1,High,Deploy robots.txt,Cursor,public/robots.txt,Accessible at /robots.txt,0.25
+1,High,Deploy or create sitemap.xml,Cursor,public/sitemap.xml OR app/sitemap.ts,Accessible at /sitemap.xml with all pages,0.5
+1,High,Verify Google Search Console,Cursor,GSC dashboard,Property verified + sitemap submitted,1
+1,Medium,Set up Google Analytics 4,Cursor,app/layout.tsx + lib/gtag.ts,GA4 tracking events visible in Realtime,1
+1,High,Claim and optimise Google Business Profile,Cursor,GBP dashboard,Profile 100% complete with NAP match,2
+1,Low,Run baseline Lighthouse audit,Cursor,N/A (use PageSpeed Insights),Baseline scores documented,0.25
+2,High,Collect real NAP data (address phone email),Cursor,N/A (data gathering),All placeholders identified,0.5
+2,High,Get latitude/longitude from Google Maps,Cursor,N/A (Google Maps),Coordinates copied,0.25
+2,High,Get Google Business Profile CID,Cursor,GBP share URL,CID extracted,0.25
+2,High,Update accounting_service_schema.json placeholders,Cursor,handoff/schema/accounting_service_schema.json,All [INSERT] replaced with real data,0.5
+2,High,Update organization_schema.json placeholders,Cursor,handoff/schema/organization_schema.json,All [INSERT] replaced with real data,0.5
+2,High,Remove aggregateRating if no real reviews,Cursor,handoff/schema/organization_schema.json,AggregateRating removed or filled,0.25
+2,High,Implement AccountingService + FAQPage schemas on homepage,Cursor,app/page.tsx,JSON-LD scripts in <head>,0.5
+2,High,Implement Organization + WebSite schemas site-wide,Cursor,app/layout.tsx,JSON-LD scripts in <head>,0.5
+2,High,Validate schemas with Rich Results Test,Cursor,Google Rich Results Test,0 errors for all 4 schemas,0.5
+2,Medium,Validate schemas with Schema.org validator,Cursor,validator.schema.org,0 warnings,0.25
+3,High,Refactor homepage to single-page IA,Cursor,app/page.tsx,9 sections per copy_outline.md,3
+3,High,Write H1 + subheading + value prop,Cursor,app/page.tsx,H1 includes primary keyword,0.5
+3,High,Update title tag (55-60 chars),Cursor,app/page.tsx metadata,Title = "Accountant in Medway Kent | Fileeasy",0.25
+3,High,Update meta description (145-155 chars),Cursor,app/page.tsx metadata,Meta includes CTA + geo,0.25
+3,High,Write 6-8 service cards (30-40 words each),Cursor,app/page.tsx or components/,Services grid complete,2
+3,High,Write 3-step process section,Cursor,app/page.tsx or components/ProcessSteps.tsx,Visual process with icons,1
+3,Medium,Write industries served section,Cursor,app/page.tsx,"SMEs contractors landlords" listed,0.5
+3,Medium,Write Why Choose Fileeasy section (5 bullets),Cursor,app/page.tsx,5 benefit points with no fake claims,1
+3,Low,Add testimonials section (real only) OR remove,Cursor,app/page.tsx or components/Testimonial.tsx,Only real testimonials or stub,0.5
+3,High,Write 12 FAQs from keyword_map.md,Cursor,app/page.tsx or components/FAQAccordion.tsx,12 Q&As matching faq_schema.json,2
+3,High,Sync FAQ text with faq_schema.json,Cursor,app/page.tsx + faq_schema.json,Text matches exactly,0.5
+3,Medium,Write pricing philosophy section,Cursor,app/page.tsx,Transparency messaging no fake prices,0.5
+3,High,Write contact section with NAP,Cursor,app/page.tsx or components/contact/,NAP + hours + map link,1
+3,High,Audit NAP consistency (footer schema GBP),Cursor,All files,NAP identical everywhere,0.5
+3,Medium,Add scroll anchors for single-page nav,Cursor,app/page.tsx + CTA buttons,CTAs link to #services #contact #faqs,0.5
+3,Low,Add trust badges (only if true),Cursor,app/page.tsx or components/TrustBar.tsx,Only real accreditations displayed,0.5
+3,Medium,Optimise CTAs (primary secondary tertiary),Cursor,app/page.tsx + components/,Book consult + call + email CTAs,0.5
+3,Low,Add UK spelling check,Cursor,All copy,organised optimise licence VAT HMRC,0.5
+3,Low,Check readability (Hemingway grade 8-10),Cursor,app/page.tsx copy,Grade 8-10 achieved,0.25
+4,High,Download Unsplash images from unsplash_candidates.json,Cursor,public/images/,12 images downloaded,1
+4,High,Convert all images to WebP,Cursor,public/images/,All images .webp format,1
+4,High,Compress images (hero <100KB cards <50KB),Cursor,public/images/,File sizes under targets,0.5
+4,High,Update Image components with width height alt,Cursor,All image references,Explicit dimensions set prevents CLS,1.5
+4,High,Set hero image priority=true,Cursor,app/page.tsx hero Image,priority prop added,0.25
+4,High,Set below-fold images loading=lazy,Cursor,All below-fold images,loading="lazy" added,0.5
+4,High,Implement Next.js Font Optimization,Cursor,app/layout.tsx,next/font/google with display swap,0.5
+4,Medium,Defer analytics scripts,Cursor,app/layout.tsx Script tags,strategy="afterInteractive",0.25
+4,Medium,Dynamic import heavy components (Calendly),Cursor,app/page.tsx or components/,next/dynamic with ssr:false,0.5
+4,Low,Remove unused npm packages,Cursor,package.json,Audit with npm-check,0.5
+4,High,Enable Cloudflare or Namecheap CDN,Cursor,DNS or cPanel,CDN active checked via headers,1
+4,Medium,Set cache headers for static assets,Cursor,next.config.ts OR .htaccess,Cache-Control headers present,0.5
+4,Medium,Add mobile sticky CTA bar,Cursor,components/ui/MobileStickyBar.tsx or MobileCTABar.tsx,Bottom-fixed button on mobile,0.5
+4,Low,Test on real mobile device,Cursor,N/A (manual testing),No horizontal scroll tap targets OK,0.5
+4,High,Run Lighthouse audit (mobile) and fix top 3 issues,Cursor,N/A (PageSpeed Insights),Score >90 LCP <2.5s CLS <0.1,2
+5,High,Cross-browser testing (Chrome Firefox Safari Edge),Cursor,N/A (manual testing),Site functional on all browsers,1
+5,High,Functional QA (CTAs forms accordions menu),Cursor,N/A (manual testing),All interactive elements work,1
+5,High,Visual QA (no layout shift broken images FOIT),Cursor,N/A (manual testing),No visual bugs,0.5
+5,Low,Check console for errors,Cursor,Browser DevTools Console,0 console errors,0.25
+5,Medium,Add Open Graph tags for social sharing,Cursor,app/page.tsx metadata.openGraph,OG tags present test with opengraphcheck.com,0.5
+5,High,Request indexing in Google Search Console,Cursor,GSC Inspect URL,Indexing requested for homepage,0.25
+5,Medium,Submit sitemap to Bing Webmaster Tools,Cursor,Bing Webmaster Tools,Sitemap submitted,0.5
+5,High,Complete GBP profile (categories hours service areas),Cursor,GBP dashboard,100% complete,1
+5,High,Upload 5+ photos to GBP,Cursor,GBP dashboard + public/images/,Logo cover office team photos,1
+5,Medium,Create first GBP post,Cursor,GBP dashboard,Launch announcement post published,0.25
+5,High,Get GBP review link,Cursor,GBP dashboard,Review link copied,0.25
+5,High,Set up review request email template,Cursor,N/A (email draft),Template ready for client emails,0.5
+5,Medium,Configure GA4 conversions (book_consultation phone_call),Cursor,GA4 Admin > Events,Conversions marked,0.5
+5,Low,Set up weekly monitoring calendar,Cursor,N/A (calendar app),Reminders for GSC GA4 GBP checks,0.25
+5,Low,Announce launch on social media (if applicable),Cursor,Facebook LinkedIn Twitter,Social posts published,0.5
+5,Low,Email existing clients about new website (if applicable),Cursor,Email client,Client email sent,0.5
+Post,Low,Monitor GSC for indexing (Day 3),Cursor,GSC Coverage report,Homepage indexed,0.25
+Post,Low,Check GA4 traffic (Day 7),Cursor,GA4 Reports,Traffic visible,0.25
+Post,Low,Run Lighthouse again (Day 14),Cursor,PageSpeed Insights,Scores stable >90,0.25
+Post,Medium,Request reviews from 2-3 clients (Day 14-21),Cursor,Email + GBP review link,2-3 reviews collected,1
+Post,Low,Check Local Pack ranking for accountant medway (Day 30),Cursor,Incognito Google search,Position noted,0.25
+Post,Low,Review GA4 data (Day 30),Cursor,GA4 Reports,Top pages bounce rate conversions,0.5
+Post,Low,Check Core Web Vitals in GSC (Day 30),Cursor,GSC Core Web Vitals report,Data visible and green,0.25

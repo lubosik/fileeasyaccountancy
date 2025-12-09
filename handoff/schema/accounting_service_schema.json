@@ -1,0 +1,172 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AccountingService",
+  "@id": "https://fileeasyaccountancy.co.uk/#organization",
+  "name": "Fileeasy Accountancy",
+  "alternateName": "File Easy Accountancy",
+  "description": "Professional accountancy services for businesses and individuals in Medway, Kent. Tax returns, bookkeeping, VAT, payroll, and business advisory.",
+  "url": "https://fileeasyaccountancy.co.uk",
+  "logo": "https://fileeasyaccountancy.co.uk/logo.png",
+  "image": "https://fileeasyaccountancy.co.uk/office-photo.jpg",
+  "telephone": "+447894447435",
+  "email": "hello@fileeasyaccountancy.co.uk",
+  "priceRange": "££",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Chatham Business Centre",
+    "addressLocality": "Chatham",
+    "addressRegion": "Kent",
+    "postalCode": "ME4 4AA",
+    "addressCountry": "GB"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "51.3883",
+    "longitude": "0.5083"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Medway",
+      "containedInPlace": {
+        "@type": "AdministrativeArea",
+        "name": "Kent"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Chatham"
+    },
+    {
+      "@type": "City",
+      "name": "Rochester"
+    },
+    {
+      "@type": "City",
+      "name": "Gillingham"
+    },
+    {
+      "@type": "City",
+      "name": "Strood"
+    },
+    {
+      "@type": "City",
+      "name": "Rainham"
+    }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "17:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "13:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/fileeasy-accountancy",
+    "https://www.google.com/maps?cid=0x47d8cd14844b6e53:0x4d94bad817be51bb"
+  ],
+  "knowsAbout": [
+    "Accountancy",
+    "Tax Returns",
+    "Self Assessment",
+    "Corporation Tax",
+    "Bookkeeping",
+    "VAT Returns",
+    "Payroll Services",
+    "Making Tax Digital",
+    "Company Formation",
+    "Business Advisory",
+    "Tax Planning",
+    "Cloud Accounting",
+    "Xero",
+    "QuickBooks",
+    "IR35",
+    "Financial Reporting",
+    "CIS Returns",
+    "Year-End Accounts"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Accounting Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Self-Assessment Tax Returns",
+          "description": "Personal tax return preparation and filing for sole traders, landlords, and individuals with complex income."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Limited Company Accounts",
+          "description": "Annual statutory accounts, Corporation Tax returns, and Companies House filing for limited companies."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Bookkeeping Services",
+          "description": "Monthly bookkeeping, bank reconciliation, and management accounts using cloud accounting software."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "VAT Returns",
+          "description": "Quarterly VAT return preparation and submission, including Making Tax Digital compliance."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Payroll Services",
+          "description": "PAYE, RTI submissions, auto-enrolment pensions, P60s, P45s, and CIS for construction contractors."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Tax Planning & Advisory",
+          "description": "Proactive tax planning, dividend strategy, capital allowances, and R&D tax credit claims."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Business Start-Up Support",
+          "description": "Company formation, HMRC registrations, and initial structure advice for new businesses."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "IR35 Services",
+          "description": "IR35 status assessments, contract reviews, and CEST analysis for contractors."
+        }
+      }
+    ]
+  },
+  "slogan": "Stress-Free Accounting for Medway Businesses"
+}

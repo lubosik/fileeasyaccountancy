@@ -1,0 +1,99 @@
+/* File Easy Accountancy Brand System CSS Tokens */
+
+:root {
+  /* Brand Colors - Core palette */
+  --fe-brand-primary: #050A30;    /* primary blue */
+  --fe-brand-primary-dark: #03061E;  /* primary dark */
+  --fe-brand-primary-light: #1134A6;  /* primary light - royal azure */
+  --fe-brand-secondary: #1134A6;  /* support blue - royal azure */
+
+  /* Accent Colors */
+  --fe-accent-yellow: #C9A227;    /* accent gold */
+  --fe-accent-orange: #C9A227;    /* accent gold (unified) */
+
+  /* Neutral Colors */
+  --fe-neutral-light: #E5E5E5;    /* neutral light */
+  --fe-neutral-dark: #050A30;      /* primary dark blue */
+
+  /* Light Theme Semantic Roles */
+  --fe-bg-page: #F8F8F5;          /* porcelain white background */
+  --fe-bg-surface: #E5E5E5;      /* neutral light */
+  --fe-bg-raised: #F8F8F5;       /* porcelain white (no pure white) */
+
+  --fe-text-primary: #1A1A1A;       /* default typography */
+  --fe-text-secondary: #1A1A1A;    /* secondary text */
+  --fe-text-inverse: #F8F8F5;     /* inverse text on dark */
+
+  --fe-brand-primary-semantic: #050A30;  /* primary blue */
+  --fe-brand-secondary-semantic: #1134A6;  /* primary light - royal azure */
+
+  --fe-cta-bg: #C9A227;          /* accent gold */
+  --fe-cta-text: #1A1A1A;        /* dark text on gold */
+
+  --fe-link: #050A30;            /* primary blue */
+  --fe-link-hover: #1134A6;      /* royal azure hover */
+  --fe-border-muted: #E5E5E5;    /* neutral light */
+  --fe-focus: #050A30;           /* primary blue */
+
+  /* Status Colors */
+  --fe-success: #0F5132;         /* success green */
+  --fe-error: #8B0000;            /* error red */
+}
+
+.theme-dark {
+  /* Dark Theme Semantic Roles */
+  --fe-bg-page: #0F141A;
+  --fe-bg-surface: #0D1116;
+  --fe-bg-raised: #0A0E12;
+
+  --fe-text-primary: #E8EDF3;
+  --fe-text-secondary: #B9C4CF;
+  --fe-text-inverse: #0F141A;
+
+  --fe-brand-primary-semantic: #6E7F91;
+  --fe-brand-secondary-semantic: #ABC3DB;
+
+  --fe-cta-bg: #F9D466;
+  --fe-cta-text: #0F141A;
+
+  --fe-link: #CADAE9;
+  --fe-border-muted: #2A323A;
+  --fe-focus: #CADAE9;
+}
+
+/* Accessibility enforcement - high contrast combinations */
+.fe-accessible-primary-on-white {
+  background: #F8F8F5;
+  color: var(--fe-brand-primary);
+}
+
+.fe-accessible-white-on-primary {
+  background: var(--fe-brand-primary);
+  color: #F8F8F5;
+}
+
+.fe-accessible-white-on-secondary {
+  background: var(--fe-brand-secondary);
+  color: #F8F8F5;
+}
+
+.fe-accessible-dark-on-yellow {
+  background: var(--fe-accent-yellow);
+  color: #1A1A1A;
+}
+
+.fe-accessible-dark-on-orange {
+  background: var(--fe-accent-orange);
+  color: #1A1A1A;
+}
+
+/* Brand doctrine enforcement - unified accent */
+.fe-yellow-accent {
+  --current-accent: var(--fe-accent-yellow);
+  --current-accent-text: #1A1A1A;
+}
+
+.fe-orange-accent {
+  --current-accent: var(--fe-accent-orange);
+  --current-accent-text: #1A1A1A;
+}
