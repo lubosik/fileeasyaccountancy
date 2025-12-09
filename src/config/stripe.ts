@@ -38,7 +38,7 @@ export const STRIPE_WEBHOOK_SECRET = process.env.STRIPE_WEBHOOK_SECRET || '';
  */
 export const stripe: Stripe | null = STRIPE_SECRET_KEY
   ? new Stripe(STRIPE_SECRET_KEY, {
-      apiVersion: '2024-06-20',
+      apiVersion: '2025-11-17.clover' as const,
       typescript: true,
     })
   : null;

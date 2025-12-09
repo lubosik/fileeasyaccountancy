@@ -6,6 +6,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowLeft, CheckCircle2, AlertCircle } from 'lucide-react';
 
+// Force dynamic rendering - prevent static generation
+export const dynamic = 'force-dynamic';
+
 export default function ResetVerifyPage() {
   const router = useRouter();
   const searchParams = useSearchParams();

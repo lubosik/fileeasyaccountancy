@@ -129,8 +129,11 @@ export default function AMLStatusDisplay({
         return;
       }
 
+      // At this point, clientIdToUse is guaranteed to be non-null
+      const finalClientId = clientIdToUse;
+
       // Initial fetch
-      const shouldStop = await fetchAMLStatus(clientIdToUse);
+      const shouldStop = await fetchAMLStatus(finalClientId);
       setPollCount(1);
 
       // If status is final, stop polling
@@ -155,7 +158,7 @@ export default function AMLStatusDisplay({
           return newCount;
         });
 
-        const stopPolling = await fetchAMLStatus(clientIdToUse);
+        const stopPolling = await fetchAMLStatus(finalClientId);
         if (stopPolling && intervalId) {
           clearInterval(intervalId);
         }

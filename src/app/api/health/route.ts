@@ -120,7 +120,7 @@ export async function GET(request: NextRequest) {
       const stripe = getStripeClient();
       
       // Simple connectivity check - try to get account info
-      await stripe.account.retrieve();
+      await stripe.accounts.retrieve();
       health.services.stripe.healthy = true;
     } catch (error) {
       health.services.stripe.healthy = false;

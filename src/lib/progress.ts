@@ -64,7 +64,10 @@ function buildResumeSnapshot(fields: Record<string, any>): string {
     if (json.length > maxSize) {
       // If too large, remove less critical fields
       const trimmed = { ...snapshot };
-      delete trimmed.customFields; // Remove nested customFields
+      // Remove nested customFields if it exists
+      if ('customFields' in trimmed) {
+        delete (trimmed as any).customFields;
+      }
       const trimmedJson = JSON.stringify(trimmed);
       
       if (trimmedJson.length > maxSize) {

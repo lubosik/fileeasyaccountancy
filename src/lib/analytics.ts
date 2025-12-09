@@ -49,7 +49,7 @@ export const trackGA4Event = (
 
   // Filter out undefined values
   const cleanParams: Record<string, string | number | boolean> = params ? Object.fromEntries(
-    Object.entries(params).filter(([_, value]) => value !== undefined) as [string, string | number | boolean][]
+    Object.entries(params).filter(([, value]) => value !== undefined) as [string, string | number | boolean][]
   ) : {};
 
   window.gtag!('event', eventName, cleanParams);
@@ -69,7 +69,7 @@ export const trackMetaPixelEvent = (
 
   // Filter out undefined values
   const cleanParams: Record<string, string | number | boolean> = params ? Object.fromEntries(
-    Object.entries(params).filter(([_, value]) => value !== undefined) as [string, string | number | boolean][]
+    Object.entries(params).filter(([, value]) => value !== undefined) as [string, string | number | boolean][]
   ) : {};
 
   window.fbq!('track', eventName, cleanParams);

@@ -312,7 +312,7 @@ function QuoteContent() {
                 </div>
               </div>
             )}
-            {currentStep === 7 && (
+            {currentStep === 7 && step4Data && (
               <Step5PaymentStyle
                 onNext={(paymentStyle: PaymentStyle) => {
                   const monthlyPrice = step4Data.monthlyPrice.min;
